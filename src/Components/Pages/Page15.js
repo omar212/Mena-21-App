@@ -9,31 +9,30 @@ import HeartIcon from '@material-ui/icons/Favorite'
 import styled from 'styled-components';
 import questions from '../questions'
 import mena1 from '../../assests/mena1.jpg'
-import { useHistory } from "react-router-dom";
 
 
-function Page2() {    
-    let history = useHistory();
 
+function Page15() {    
     return (
-        <PageStyled>
+        <PageStyle>
             <Card 
-                title={`Question ${questions[1].id}`}
-                question={questions[1].questionText}
+                title={`Question ${questions[14].id}`}
+                question={questions[14].questionText}
                 image={mena1}
-                answers={questions[1].answerOptions}
-                claimCode={questions[1].claimCode}
-                rewardTitle={questions[1].rewardTitle}
-                rewardCardImage={questions[1].rewardCardImage}
-                link={questions[1].link}
-                id={(questions[1].id + 1).toString()}
+                answers={questions[14].answerOptions}
+                claimCode={questions[14].claimCode}
+                rewardTitle={questions[14].rewardTitle}
+                rewardCardImage={questions[14].rewardCardImage}
+                link={questions[14].link}
+                id={(questions[14].id + 1).toString()}
             />
-        </PageStyled>   
+        </PageStyle>
+        
     )
 }
 
 
-const PageStyled = styled.div `
+const PageStyle = styled.div `
     display:flex;
     justify-content: space-between;
     flex-direction: column;
@@ -45,4 +44,4 @@ const PageStyled = styled.div `
     }
 `
 
-export default Page2;
+export default Page15;

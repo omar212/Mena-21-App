@@ -2,8 +2,31 @@ import './App.scss';
 import { Route, Switch as Switching } from "react-router";
 import HomePage from './Components/HomePage/HomePage'
 import PrettyPage from './Components/PrettyPage/PrettyPage'
+
 import Page1 from './Components/Pages/Page1'
 import Page2 from './Components/Pages/Page2'
+import Page3 from './Components/Pages/Page3'
+import Page4 from './Components/Pages/Page4'
+import Page5 from './Components/Pages/Page5'
+import Page6 from './Components/Pages/Page6'
+import Page7 from './Components/Pages/Page7'
+import Page8 from './Components/Pages/Page8'
+import Page9 from './Components/Pages/Page9'
+import Page10 from './Components/Pages/Page10'
+import Page11 from './Components/Pages/Page11'
+import Page12 from './Components/Pages/Page12'
+import Page13 from './Components/Pages/Page13'
+import Page14 from './Components/Pages/Page14'
+import Page15 from './Components/Pages/Page15'
+import Page16 from './Components/Pages/Page16'
+import Page17 from './Components/Pages/Page17'
+import Page18 from './Components/Pages/Page18'
+import Page19 from './Components/Pages/Page19'
+import Page20 from './Components/Pages/Page20'
+import Page21 from './Components/Pages/Page21'
+import Page22 from './Components/Pages/Page22'
+
+
 import styled from 'styled-components'
 import Header from './Components/Header/Header'
 import menaBackground from './assests/menaBackground.jpg'
@@ -27,63 +50,65 @@ function App() {
               <Page2 />
             </Route>
             <Route path="/b3" exact>
-              <PrettyPage />
+              <Page3 />
             </Route>
             <Route path="/b4" exact>
-              <PrettyPage />
+              <Page4 />
             </Route>
             <Route path="/b5" exact>
-              <PrettyPage />
+              <Page5 />
             </Route>
             <Route path="/b6" exact>
-              <PrettyPage />
+              <Page6 />
             </Route>
             <Route path="/b7" exact>
-              <PrettyPage />
+              <Page7 />
             </Route>
             <Route path="/b8" exact>
-              <PrettyPage />
+              <Page8 />
             </Route>
             <Route path="/b9" exact>
-              <PrettyPage />
+              <Page9 />
             </Route>
             <Route path="/b10" exact>
-              <PrettyPage />
+              <Page10 />
             </Route>
             <Route path="/b11" exact>
-              <PrettyPage />
+              <Page11 />
             </Route>
             <Route path="/b12" exact>
-              <PrettyPage />
+              <Page12 />
             </Route>
             <Route path="/b13" exact>
-              <PrettyPage />
+              <Page13 />
             </Route>
             <Route path="/b14" exact>
-              <PrettyPage />
+              <Page14 />
             </Route>
             <Route path="/b15" exact>
-              <PrettyPage />
+              <Page15 />
             </Route>
             <Route path="/b16" exact>
-              <PrettyPage />
+              <Page16 />
             </Route>
             <Route path="/b17" exact>
-              <PrettyPage />
+              <Page17 />
             </Route>
             <Route path="/b18" exact>
-              <PrettyPage />
+              <Page18 />
             </Route>
             <Route path="/b19" exact>
-              <PrettyPage />
+              <Page19 />
             </Route>
             <Route path="/b20" exact>
-              <PrettyPage />
+              <Page20 />
             </Route>
             <Route path="/b21" exact>
-              <PrettyPage />
+              <Page21 />
             </Route>
-
+            <Route path="/b22" exact>
+              <Page22 />
+            </Route>
         </Switching>
         </MainContentStyled>
     </div>
@@ -92,11 +117,8 @@ function App() {
 const MainContentStyled = styled.main` 
     background-image: url("https://unsplash.com/photos/Hli3R6LKibo");
     background-size: cover;
-    height:105%;
-    margin-top:17%;
-    margin-bottom:1%;
-    // background-color: #282c34;
-    min-height: 110%;
+    height:94vh;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

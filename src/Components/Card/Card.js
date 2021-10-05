@@ -12,7 +12,7 @@ import './index.scss'
 import { ButtonGroup } from '@mui/material';
 
 
-export default function QuestionCard({title, question, image, answers, claimCode, rewardCardImage, rewardTitle, link}) {
+export default function QuestionCard({title, question, image, answers, claimCode, rewardCardImage, rewardTitle, link, id}) {
   const [correctAnswer, setCorrectAnswer] = useState(false)
   const [submitText, setSubmitAnswer] = useState()
   const [openPopup, setOpenPopup] = useState(false)
@@ -81,6 +81,7 @@ export default function QuestionCard({title, question, image, answers, claimCode
             rewardCardImage={rewardCardImage}
             correctAnswer={correctAnswer}
             link={link}
+            id={id}
           /> 
       }
     </div>

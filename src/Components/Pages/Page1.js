@@ -14,7 +14,7 @@ import mena1 from '../../assests/mena1.jpg'
 
 function Page1() {    
     return (
-        <PageOneStyled>
+        <PageStyle>
             <Card 
                 title={`Question ${questions[0].id}`}
                 question={questions[0].questionText}
@@ -24,6 +24,7 @@ function Page1() {
                 rewardTitle={questions[0].rewardTitle}
                 rewardCardImage={questions[0].rewardCardImage}
                 link={questions[0].link}
+                id={(questions[0].id + 1).toString()}
             />
             {/* <Link style={{textDecoration: "none"}} to="/b2">
                 <Button 
@@ -38,13 +39,13 @@ function Page1() {
                         Next
                 </Button>
             </Link> */}
-        </PageOneStyled>
+        </PageStyle>
         
     )
 }
 
 
-const PageOneStyled = styled.div `
+const PageStyle = styled.div `
     display:flex;
     justify-content: space-between;
     flex-direction: column;

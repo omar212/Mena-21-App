@@ -15,8 +15,8 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 });
 
 export default function Popup(props) {
-  const { openPopup, setOpenPopup, correctAnswer, submitText,claimCode,rewardCardImage ,rewardTitle, link } = props
-  console.log("correctAnswer ---->: ", correctAnswer, 'claimCode: ', claimCode)
+  const { openPopup, setOpenPopup, correctAnswer, submitText,claimCode,rewardCardImage ,rewardTitle, link, id } = props
+  console.log("id , ", id, typeof(id))
   return (
     <div>
       <Dialog
@@ -58,7 +58,7 @@ export default function Popup(props) {
         {
           correctAnswer ? 
           <DialogActions>
-            <Link to="/b2">
+            <Link to={`/b${id}`}>
               <Button onClick={() => setOpenPopup(false)}>Next</Button>
             </Link>
           </DialogActions> : 

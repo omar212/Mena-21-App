@@ -1,4 +1,5 @@
 import starbucks from '../assests/ClaimCards/starbucksCard.png'
+import adidas from '../assests/ClaimCards/adidasCard.png'
 
 const questions = [
     {
@@ -17,17 +18,18 @@ const questions = [
     },
     {
         id: 2,
-        questionText: 'If I would compare you to someone who would it be ?',
+        questionText: 'Who is the best fashion designer in the world ?',
         answerOptions: [
-            { answerText: 'Drake', isCorrect: false, submitText: 'LOL you really would of thought I was going to pick Drake, try again pretty.' },
-            { answerText: 'Beyonce', isCorrect: false, submitText: "She is taken by Jay Z, that's not nice, try again princess." },
-            { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
-            { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
+            { answerText: 'Louis Vutton', isCorrect: false, submitText: 'He is alright, only if his cloths were just a bit cheaper.'},
+            { answerText: 'Yves Saint Lauren', isCorrect: false, submitText: "I know you think this is the answer, but I promise you it's not about the designer it's about the person." },
+            { answerText: 'Mena Elkafafi', isCorrect: true, submitText: "Correct Pretty! All your fits are fire and creative, you're the best in the game 🔥"  },
+            { answerText: 'Coco Chanel', isCorrect: false, submitText: "She supported Hitler, so it's definitly a no." },
+            
         ],
-        rewardCardImage: starbucks,
-        rewardTitle: 'Starbucks',
+        rewardCardImage: adidas,
+        rewardTitle: 'Adidas',
         claimCode: '0000000000',
-        link: 'https://www.starbucks.com/'
+        link: 'https://www.adidas.com/'
     },
     {
         id: 3,

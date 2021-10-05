@@ -26,7 +26,18 @@
     }
 
     .MuiButton-containedPrimary:hover {
-        background-color:  #694364;
+        background-color:  #694364 !important;
+        color: white;
+    }
+
+    .css-ke5b6m-MuiButtonBase-root-MuiButton-root:hover {
+        background-color:  #694364 !important;
+        color: white;
+    }
+
+
+    .css-ke5b6m-MuiButtonBase-root-MuiButton-root:active {
+        background-color:  #694364 !important;
         color: white;
     }
 }
