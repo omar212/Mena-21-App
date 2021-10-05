@@ -8,5 +8,25 @@
     .buttons {
         font-family: "Carter One";
         font-size: 14px;
+        background-color:  #C4C4C0;
+        color: #694364;
+        border: 1px solid #B58BAB;
+    }
+
+    .css-h93ljk-MuiTypography-root {
+        font-family: 'Acme', sans-serif;
+    }
+    .css-r40f8v-MuiTypography-root {
+        font-family: 'Acme', sans-serif;
+    }
+
+    .css-1ri6ub7-MuiPaper-root-MuiCard-root {
+        background-color: #E3D1E2;
+        border: 1px solid #C4C4C0;
+    }
+
+    .MuiButton-containedPrimary:hover {
+        background-color:  #694364;
+        color: white;
     }
 }

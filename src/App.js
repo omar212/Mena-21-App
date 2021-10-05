@@ -2,10 +2,10 @@ import './App.scss';
 import { Route, Switch as Switching } from "react-router";
 import HomePage from './Components/HomePage/HomePage'
 import PrettyPage from './Components/PrettyPage/PrettyPage'
-import Page1 from './Components/Page1'
-import Page2 from './Components/Page2'
+import Page1 from './Components/Pages/Page1'
+import Page2 from './Components/Pages/Page2'
 import styled from 'styled-components'
-import Header from './Components/Header'
+import Header from './Components/Header/Header'
 import menaBackground from './assests/menaBackground.jpg'
 
 function App() {
@@ -92,8 +92,11 @@ function App() {
 const MainContentStyled = styled.main` 
     background-image: url("https://unsplash.com/photos/Hli3R6LKibo");
     background-size: cover;
+    height:105%;
+    margin-top:17%;
+    margin-bottom:1%;
     // background-color: #282c34;
-    min-height: 100vh;
+    min-height: 110%;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -4,44 +4,68 @@ import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
+import Box from '@mui/material/Box';
 import DialogTitle from '@mui/material/DialogTitle';
+import { Link } from "react-router-dom";
 import Slide from '@mui/material/Slide';
+import './index.scss'
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-export default function AlertDialogSlide(props) {
-  const [open, setOpen] = React.useState(false);
-
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-      console.log("entered")
-    setOpen(false);
-  };
-
+export default function Popup(props) {
+  const { openPopup, setOpenPopup, correctAnswer, submitText,claimCode,rewardCardImage ,rewardTitle, link } = props
+  console.log("correctAnswer ---->: ", correctAnswer, 'claimCode: ', claimCode)
   return (
     <div>
       <Dialog
-        open={open}
+        open={openPopup}
         TransitionComponent={Transition}
         keepMounted
-        onClose={handleClose}
         aria-describedby="alert-dialog-slide-description"
       >
-        <DialogTitle>{"Use Google's location service?"}</DialogTitle>
+        {/* <DialogTitle>{"Use Google's location service?"}</DialogTitle> */}
         <DialogContent>
-          <DialogContentText id="alert-dialog-slide-description">
-            Let Google help apps determine location. This means sending anonymous
-            location data to Google, even when no apps are running.
+          <DialogContentText>
+            {submitText}
           </DialogContentText>
+          {
+            correctAnswer ? 
+            <Box 
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'space-around',
+                height: '100%',
+              }}
+            >
+              <a style={{marginTop: '15%', marginBottom: '15%'}} target="_blank" href={link}>
+                <img
+                  className="claim-card"
+                  src={rewardCardImage}
+                  alt={rewardTitle}
+                  loading="lazy"
+                />
+              </a>
+              <DialogContentText>
+                Here's your reward princess <br /> <span style={{color: "#694364", fontWeight: 'bolder'}}>Claim Code: </span> {claimCode}
+              </DialogContentText>
+            </Box> : ''
+          }
+          
         </DialogContent>
-        <DialogActions>
-          <Button onClick={handleClose}>Disagree</Button>
-        </DialogActions>
+        {
+          correctAnswer ? 
+          <DialogActions>
+            <Link to="/b2">
+              <Button onClick={() => setOpenPopup(false)}>Next</Button>
+            </Link>
+          </DialogActions> : 
+          <DialogActions>
+            <Button onClick={() => setOpenPopup(false)}>Try Again Pretty</Button>
+          </DialogActions>
+        }
       </Dialog>
     </div>
   );

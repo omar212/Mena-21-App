@@ -1,3 +1,5 @@
+import starbucks from '../assests/ClaimCards/starbucksCard.png'
+
 const questions = [
     {
         id: 1,
@@ -8,18 +10,22 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
     {
         id: 2,
-        questionText: 'If I could choose one person to be alone on an island with for the rest of my life who it would be ?',
+        questionText: 'If I would compare you to someone who would it be ?',
         answerOptions: [
             { answerText: 'Drake', isCorrect: false, submitText: 'LOL you really would of thought I was going to pick Drake, try again pretty.' },
             { answerText: 'Beyonce', isCorrect: false, submitText: "She is taken by Jay Z, that's not nice, try again princess." },
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -30,8 +36,10 @@ const questions = [
             { answerText: 'Drake', isCorrect: false, submitText: 'LOL you really would of thought I was going to pick Drake, try again pretty.' },
             { answerText: 'Beyonce', isCorrect: false, submitText: "She is taken by Jay Z, that's not nice, try again princess." },
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
-            { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
+            { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck than you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -44,6 +52,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -56,6 +66,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -68,6 +80,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -80,6 +94,7 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -92,6 +107,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -104,6 +121,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -116,6 +135,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -128,6 +149,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -140,6 +163,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -152,6 +177,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -164,6 +191,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -176,6 +205,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -188,6 +219,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -200,6 +233,7 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -212,6 +246,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -224,6 +260,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -236,6 +274,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
@@ -248,6 +288,8 @@ const questions = [
             { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
             { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/'
     },
