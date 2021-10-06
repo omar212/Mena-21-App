@@ -18,7 +18,7 @@ function HomePage() {
                     color="secondary"
                     style={{ backgroundColor: "#BF40BF"}}
                     >
-                        Princess Click Me
+                        Click Me Princess
                 </Button>
             </Link>
 

@@ -28,6 +28,7 @@ function PrettyPage() {
                     justifyContent: 'center',
                     overflow: 'hidden',
                     border: '1px solid #C4C4C0',
+                    borderRadius: '25px',
                     },
                     justifyContent: 'center',
                 }}
@@ -37,7 +38,7 @@ function PrettyPage() {
                         Welcome to the game of 21, 
                         in this game you will answer 21 questions, 
                         something you might know pretty well, 
-                        answer correctly and you will be rewarded, answer incorrectly ... well don't worry princess, I'll give you another chance. Good luck hayati, 
+                        answer correctly and you will be rewarded, answer incorrectly ... well don't worry princess, I'll give you unlimited chances lol. Good luck hayati, 
                         I love you and here's a bosa for good luck 😘.
                     </Typography>
                 </Paper>

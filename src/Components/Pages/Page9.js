@@ -8,7 +8,7 @@ import Card from '../Card/Card'
 import HeartIcon from '@material-ui/icons/Favorite'
 import styled from 'styled-components';
 import questions from '../questions'
-import mena1 from '../../assests/mena1.jpg'
+import mena1 from '../../assests/CardImages/mena1.jpg'
 
 
 function Page9() {    

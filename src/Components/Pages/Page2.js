@@ -8,7 +8,7 @@ import Card from '../Card/Card'
 import HeartIcon from '@material-ui/icons/Favorite'
 import styled from 'styled-components';
 import questions from '../questions'
-import mena1 from '../../assests/mena1.jpg'
+import mena2 from '../../assests/CardImages/mena2.jpg'
 import { useHistory } from "react-router-dom";
 
 
@@ -20,7 +20,7 @@ function Page2() {
             <Card 
                 title={`Question ${questions[1].id}`}
                 question={questions[1].questionText}
-                image={mena1}
+                image={mena2}
                 answers={questions[1].answerOptions}
                 claimCode={questions[1].claimCode}
                 rewardTitle={questions[1].rewardTitle}
