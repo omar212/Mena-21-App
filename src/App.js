@@ -26,16 +26,16 @@ import Page20 from './Components/Pages/Page20'
 import Page21 from './Components/Pages/Page21'
 import Page22 from './Components/Pages/Page22'
 
-
 import styled from 'styled-components'
 import Header from './Components/Header/Header'
-import menaBackground from './assests/menaBackground.jpg'
+import PlaySound from './Components/MediaPlayer/PlaySound'
 
 function App() {
   return (
     <div className="App">
       <Header className="header" />
       <MainContentStyled>
+        {/* <PlaySound /> */}
         <Switching>
             <Route path="/" exact>
               <HomePage />

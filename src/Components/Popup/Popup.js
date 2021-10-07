@@ -16,7 +16,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 
 export default function Popup(props) {
   const { openPopup, setOpenPopup, correctAnswer, submitText,claimCode,rewardCardImage ,rewardTitle, link, id } = props
-  console.log("id , ", id, typeof(id))
+
   return (
     <div>
       <Dialog
@@ -25,7 +25,6 @@ export default function Popup(props) {
         keepMounted
         aria-describedby="alert-dialog-slide-description"
       >
-        {/* <DialogTitle>{"Use Google's location service?"}</DialogTitle> */}
         <DialogContent>
           <DialogContentText>
             {submitText}

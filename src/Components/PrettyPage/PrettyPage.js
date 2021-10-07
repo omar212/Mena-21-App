@@ -10,7 +10,6 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import { Typography } from '@mui/material';
 
-
 function PrettyPage() {      
     return (
         <div className="pretty-container">

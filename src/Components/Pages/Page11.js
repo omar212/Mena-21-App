@@ -8,7 +8,7 @@ import Card from '../Card/Card'
 import HeartIcon from '@material-ui/icons/Favorite'
 import styled from 'styled-components';
 import questions from '../questions'
-import mena1 from '../../assests/CardImages/mena1.jpg'
+
 
 
 
@@ -18,13 +18,14 @@ function Page11() {
             <Card 
                 title={`Question ${questions[10].id}`}
                 question={questions[10].questionText}
-                image={mena1}
+                image={questions[10].cardImage}
                 answers={questions[10].answerOptions}
                 claimCode={questions[10].claimCode}
                 rewardTitle={questions[10].rewardTitle}
                 rewardCardImage={questions[10].rewardCardImage}
                 link={questions[10].link}
                 id={(questions[10].id + 1).toString()}
+                height="260px"
             />
         </PageStyle>
     )

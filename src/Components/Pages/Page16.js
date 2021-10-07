@@ -8,8 +8,6 @@ import Card from '../Card/Card'
 import HeartIcon from '@material-ui/icons/Favorite'
 import styled from 'styled-components';
 import questions from '../questions'
-import mena1 from '../../assests/CardImages/mena1.jpg'
-
 
 function Page16() {    
     return (
@@ -17,14 +15,14 @@ function Page16() {
             <Card 
                 title={`Question ${questions[15].id}`}
                 question={questions[15].questionText}
-                image={mena1}
+                image={questions[15].cardImage}
                 answers={questions[15].answerOptions}
                 claimCode={questions[15].claimCode}
                 rewardTitle={questions[15].rewardTitle}
                 rewardCardImage={questions[15].rewardCardImage}
                 link={questions[15].link}
                 id={(questions[15].id + 1).toString()}
-                
+                height="250px"
             />
         </PageStyle>
     )

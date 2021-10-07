@@ -12,15 +12,14 @@ import './index.scss'
 import { ButtonGroup } from '@mui/material';
 
 
-export default function QuestionCard({title, question, image, answers, claimCode, rewardCardImage, rewardTitle, link, id}) {
+export default function QuestionCard({title, question, image, answers, claimCode, rewardCardImage, rewardTitle, link, id, height}) {
   const [correctAnswer, setCorrectAnswer] = useState(false)
-  const [submitText, setSubmitAnswer] = useState()
+  const [submitText, setSubmitAnswer] = useState("")
   const [openPopup, setOpenPopup] = useState(false)
 
 
 
   const chooseAnswer = (answer) => {
-    console.log("answer : ", answer)
     setSubmitAnswer(answer.submitText)
     setCorrectAnswer(answer.isCorrect)
     setOpenPopup(true)
@@ -32,8 +31,8 @@ export default function QuestionCard({title, question, image, answers, claimCode
       <Card sx={{ maxWidth: 345 }}>
         <CardMedia
           component="img"
-          alt="green iguana"
-          height="140"
+          alt="image of my princess"
+          height={height ? height : "240px"}
           image={image}
         />
         <CardContent>

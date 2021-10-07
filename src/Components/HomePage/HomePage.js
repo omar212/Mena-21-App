@@ -2,14 +2,12 @@ import React from 'react'
 import Button from '@material-ui/core/Button'
 import HeartIcon from '@material-ui/icons/Favorite'
 import { Link } from "react-router-dom";
-
 import './index.scss'
 
 function HomePage() {
     return (
         <div className="princess-container">
             <Link style={{textDecoration: "none"}} to="/pretty">
-
                 <Button 
                     startIcon={<HeartIcon />}
                     endIcon={<HeartIcon />}

@@ -1,7 +1,7 @@
-$assetPath :"/assests";
+$assetPath :"./assests";
 
 body {
-  background-image: url(#{$assetPath}/menaBackground.jpg);
+  background-image: url(#{$assetPath}/ballonBackground.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;

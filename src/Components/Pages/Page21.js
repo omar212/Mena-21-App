@@ -8,7 +8,7 @@ import Card from '../Card/Card'
 import HeartIcon from '@material-ui/icons/Favorite'
 import styled from 'styled-components';
 import questions from '../questions'
-import mena1 from '../../assests/CardImages/mena1.jpg'
+
 
 
 
@@ -18,7 +18,7 @@ function Page21() {
             <Card 
                 title={`Question ${questions[20].id}`}
                 question={questions[20].questionText}
-                image={mena1}
+                image={questions[20].cardImage}
                 answers={questions[20].answerOptions}
                 claimCode={questions[20].claimCode}
                 rewardTitle={questions[20].rewardTitle}
