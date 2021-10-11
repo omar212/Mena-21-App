@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import HeartIcon from '@material-ui/icons/Favorite'
 import { Link } from "react-router-dom";
+import LinearProgress from '@mui/material/LinearProgress';
 import './index.scss'
 
 function Header() {
@@ -15,7 +16,7 @@ function Header() {
             <AppBar position="static" style={{ backgroundColor: "#800080"}}>
                 <Toolbar>
               
-                <HeartIcon />
+                <HeartIcon onClick={() => console.log("hello")} />
                 
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} >
                     <Link style={{textDecoration: 'none', color: 'white', fontFamily: 'Tangerine, cursive', fontSize: '2rem'}}to="/">
@@ -26,6 +27,9 @@ function Header() {
                 <HeartIcon />
                 
                 </Toolbar>
+                {/* <Box sx={{ width: '100%' }}>
+                    <LinearProgress variant="determinate" value={50} />
+                </Box> */}
             </AppBar>
             
         </Box>

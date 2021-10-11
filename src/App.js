@@ -35,7 +35,7 @@ function App() {
     <div className="App">
       <Header className="header" />
       <MainContentStyled>
-        {/* <PlaySound /> */}
+        <PlaySound />
         <Switching>
             <Route path="/" exact>
               <HomePage />

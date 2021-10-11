@@ -5,7 +5,6 @@ import {
   } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from '../Card/Card'
-import HeartIcon from '@material-ui/icons/Favorite'
 import styled from 'styled-components';
 import questions from '../questions'
 import { useHistory } from "react-router-dom";
