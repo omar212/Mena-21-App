@@ -1,18 +1,22 @@
 .pretty-container {
-    height: 500px;
+    height: 100%;
     width: 100%;
-    // border: 1px solid red;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 
     .css-ag7rrr-MuiTypography-root {
         font-family: 'Acme', sans-serif;
         padding: 20px;
         color: #E8E4E1;
+        -webkit-text-fill-color: black; //#694364;
+        -webkit-text-stroke-color:  purple;
+        -webkit-text-stroke-width: .50px; 
     }
 
     .MuiButton-containedSizeLarge {
         border-radius: 25px;
     }
+
+    
 }

@@ -10,6 +10,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import { Typography } from '@mui/material';
 
+
 function PrettyPage() {      
     return (
         <div className="pretty-container">
@@ -28,16 +29,17 @@ function PrettyPage() {
                     overflow: 'hidden',
                     border: '1px solid #C4C4C0',
                     borderRadius: '25px',
+                    boxShadow: '5px 5px 40px 20px #E3D1E2',
                     },
                     justifyContent: 'center',
                 }}
                 >
                 <Paper>
                     <Typography variant="h5">
-                        Welcome to the game of 21, 
+                        Hi Birthday Girl 🥳 🎂 Welcome to the game of 21, 
                         in this game you will answer 21 questions, 
                         something you might know pretty well, 
-                        answer correctly and you will be rewarded, answer incorrectly ... well don't worry princess, I'll give you unlimited chances lol. Good luck hayati, 
+                        answer correctly and you will be rewarded, answer incorrectly ... well don't worry princess, don't be afraid to try them all, I'll give you unlimited chances lol. Good luck hayati, 
                         I love you and here's a bosa for good luck 😘.
                     </Typography>
                 </Paper>

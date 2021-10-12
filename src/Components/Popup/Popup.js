@@ -8,19 +8,22 @@ import Box from '@mui/material/Box';
 import DialogTitle from '@mui/material/DialogTitle';
 import { Link } from "react-router-dom";
 import Slide from '@mui/material/Slide';
+import MoneyConfetti from '../Confetti/MoneyConfetti'
 import './index.scss'
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
+
 export default function Popup(props) {
-  const { openPopup, setOpenPopup, correctAnswer, submitText,claimCode,rewardCardImage ,rewardTitle, link, id } = props
+  const { openPopup, setOpenPopup, correctAnswer, submitText,claimCode,rewardCardImage ,rewardTitle,handleClose, link, id } = props
 
   return (
     <div>
       <Dialog
         open={openPopup}
+        onClose={handleClose}
         TransitionComponent={Transition}
         keepMounted
         aria-describedby="alert-dialog-slide-description"
@@ -46,6 +49,7 @@ export default function Popup(props) {
                   alt={rewardTitle}
                   loading="lazy"
                 />
+                <MoneyConfetti />
               </a>
               <DialogContentText>
                 Here's your reward princess <br /> <span style={{color: "#694364", fontWeight: 'bolder'}}>Claim Code: </span> {claimCode}
@@ -60,6 +64,7 @@ export default function Popup(props) {
             <Link to={`/b${id}`}>
               <Button onClick={() => setOpenPopup(false)}>Next</Button>
             </Link>
+            <Button onClick={() => setOpenPopup(false)}>Close</Button>
           </DialogActions> : 
           <DialogActions>
             <Button onClick={() => setOpenPopup(false)}>Try Again Pretty</Button>

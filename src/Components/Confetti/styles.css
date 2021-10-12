@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  position: absolute;
+  white-space: nowrap;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.happy {
+  color: white;
+  font-size:large;
+  text-shadow: 0px 0px 6px hsl(32, 100%, 55%);
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Pacifico', cursive;
+  /* padding: 1.2em; */
+  background: transparent;
+  /* box-shadow: 0 8px 32px 0 hsla(236, 63%, 33%, 0.37); */
+  /* backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); */
+  border-radius: 10px;
+  border: 1px solid purple;
+  transition: all 200ms;
+  cursor: pointer;
+}
+.happy:hover {
+  background: hsla(0, 0%, 100%, 0.5);
+}
+.happy:focus {
+  outline: none;
+}
+.cake {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: large;
+  margin-top: 1rem;
+}
+.wrapper > div span {
+  pointer-events: none;
+}

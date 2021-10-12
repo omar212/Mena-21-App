@@ -25,10 +25,15 @@ export default function QuestionCard({title, question, image, answers, claimCode
     setOpenPopup(true)
   }
 
+  const handleClose = () => {
+    setOpenPopup(false);
+  };
+
 
   return (
     <div className="card-container">
       <Card sx={{ maxWidth: 345 }}>
+        
         <CardMedia
           component="img"
           alt="image of my princess"
@@ -74,6 +79,7 @@ export default function QuestionCard({title, question, image, answers, claimCode
           <Popup 
             openPopup={openPopup} 
             setOpenPopup={setOpenPopup}
+            onClose={handleClose}
             submitText={submitText}
             claimCode={claimCode}
             rewardTitle={rewardTitle}

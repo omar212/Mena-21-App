@@ -28,7 +28,7 @@ import mena17 from '../assests/CardImages/mena17.PNG'
 import mena18 from '../assests/CardImages/mena18.PNG'
 import mena19 from '../assests/CardImages/mena19.PNG'
 import mena20 from '../assests/CardImages/mena20.jpg'
-// import mena21 from '../assests/CardImages/mena21.PNG'
+import mena21 from '../assests/CardImages/mena21.jpg'
 
 
 const questions = [
@@ -231,12 +231,12 @@ const questions = [
     },
     {
         id: 14,
-        questionText: 'If I could choose one person to be alone on an island with for the rest of my life who it would be ?',
+        questionText: 'How long do you want to wait after getting married to have kids ?',
         answerOptions: [
-            { answerText: 'Drake', isCorrect: false, submitText: 'LOL you really would of thought I was going to pick Drake, try again pretty.' },
-            { answerText: 'Beyonce', isCorrect: false, submitText: "She is taken by Jay Z, that's not nice, try again princess." },
-            { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
-            { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
+            { answerText: '1 day', isCorrect: false, submitText: 'LMAO nah calm down.' },
+            { answerText: '1 month', isCorrect: false, submitText: "No thank you." },
+            { answerText: '1 year', isCorrect: false, submitText: "I don't think so, let's bump those numbers up." },
+            { answerText: '2 years', isCorrect: true, submitText: "Yea I know you're going to need a 2 year break so you can enjoy life with no crying babies lol 🤣 💜"  },
         ],
         rewardCardImage: starbucks,
         rewardTitle: 'Starbucks',
@@ -246,12 +246,12 @@ const questions = [
     },
     {
         id: 15,
-        questionText: 'If I could choose one person to be alone on an island with for the rest of my life who it would be ?',
+        questionText: "What are your pet peeves ?",
         answerOptions: [
-            { answerText: 'Drake', isCorrect: false, submitText: 'LOL you really would of thought I was going to pick Drake, try again pretty.' },
-            { answerText: 'Beyonce', isCorrect: false, submitText: "She is taken by Jay Z, that's not nice, try again princess." },
-            { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
-            { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
+            { answerText: 'Dirty floors', isCorrect: false, submitText: "Even I learned to never throw anything on the floor but there's more" },
+            { answerText: 'Unclosed closets', isCorrect: false, submitText: "We don't want the boogeyman to come out 😱 but there's more" },
+            { answerText: 'Dirty bathroom', isCorrect: false, submitText: "Naasty and true, but there's more." },
+            { answerText: 'All of the above', isCorrect: true, submitText: "Yea that sounds much more like it, my babe is a clean freak and I'm so grateful for that 💜"  },
         ],
         rewardCardImage: starbucks,
         rewardTitle: 'Starbucks',
@@ -276,12 +276,12 @@ const questions = [
     },
     {
         id: 17,
-        questionText: 'If I could choose one person to be alone on an island with for the rest of my life who it would be ?',
+        questionText: 'How many kids do you want ?',
         answerOptions: [
-            { answerText: 'Drake', isCorrect: false, submitText: 'LOL you really would of thought I was going to pick Drake, try again pretty.' },
-            { answerText: 'Beyonce', isCorrect: false, submitText: "She is taken by Jay Z, that's not nice, try again princess." },
-            { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
-            { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
+            { answerText: '1', isCorrect: false, submitText: "No you don't want the poor kid to be an only child 🥺 " },
+            { answerText: '2', isCorrect: false, submitText: "2 is pretty fair but it's not a full team" },
+            { answerText: '3', isCorrect: true, submitText: "Inshallah we could get a Lucky 3, oldest to be a boy, one could be dumb, but thankfully we have a 3rd one to cover that lol" },
+            { answerText: '8', isCorrect: true, submitText: "8 ARE YOU CRAZY ??? HOW WE GONNA EAT 😭 we gonna have to go to Costco Everyday 😭"  },
         ],
         rewardCardImage: starbucks,
         claimCode: '0000000000',
@@ -290,12 +290,12 @@ const questions = [
     },
     {
         id: 18,
-        questionText: 'If I could choose one person to be alone on an island with for the rest of my life who it would be ?',
+        questionText: 'What is your favorite quote?',
         answerOptions: [
-            { answerText: 'Drake', isCorrect: false, submitText: 'LOL you really would of thought I was going to pick Drake, try again pretty.' },
-            { answerText: 'Beyonce', isCorrect: false, submitText: "She is taken by Jay Z, that's not nice, try again princess." },
-            { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
-            { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
+            { answerText: 'Just do it', isCorrect: false, submitText: 'LOL you really would of thought I was going to pick Drake, try again pretty.' },
+            { answerText: 'Life happens', isCorrect: false, submitText: "She is taken by Jay Z, that's not nice, try again princess." },
+            { answerText: 'Be a Man', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
+            { answerText: 'Everything happens for a reason', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
         ],
         rewardCardImage: starbucks,
         rewardTitle: 'Starbucks',
@@ -346,7 +346,7 @@ const questions = [
         rewardTitle: 'Starbucks',
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/',
-        // cardImage: mena21,
+        cardImage: mena21,
     },
 
 ];
