@@ -7,16 +7,31 @@ import DialogContentText from '@mui/material/DialogContentText';
 import Box from '@mui/material/Box';
 import DialogTitle from '@mui/material/DialogTitle';
 import { Link } from "react-router-dom";
+import CardHeader from '@mui/material/CardHeader';
 import Slide from '@mui/material/Slide';
+import Grid from '@mui/material/Grid';
+import { Typography, Paper } from '@material-ui/core';
 import './index.scss'
+import styled from 'styled-components'
+import ButtonBase from '@mui/material/ButtonBase';
+import rewards from '../questions'
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-export default function PopupAll(props) {
-  const { openPopup, setOpenPopup } = props
+const Img = styled('img')({
+  margin: 'auto',
+  display: 'block',
+  maxWidth: '100%',
+  maxHeight: '100%',
+});
 
+
+export default function PopupAll(props) {
+  const { openPopup, setOpenPopup, title } = props
+
+  console.log("rewards: ", rewards)
   return (
     <div>
       <Dialog
@@ -25,36 +40,46 @@ export default function PopupAll(props) {
         keepMounted
         aria-describedby="alert-dialog-slide-description"
       >
-        <DialogContent>
-          <DialogContentText>
-            {/* {submitText} */}
-          </DialogContentText>
-          {/* {
-            correctAnswer ? 
-            <Box 
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'space-around',
-                height: '100%',
-              }}
-            >
-              <a style={{marginTop: '15%', marginBottom: '15%'}} target="_blank" href={link}>
-                <img
-                  className="claim-card"
-                  src={rewardCardImage}
-                  alt={rewardTitle}
-                  loading="lazy"
-                />
-              </a>
-              <DialogContentText>
-                Here's your reward princess <br /> <span style={{color: "#694364", fontWeight: 'bolder'}}>Claim Code: </span> {claimCode}
-              </DialogContentText>
-            </Box> : ''
-          } */}
-          
+        <DialogContent className="final-popupAll-container">
+          <CardHeader
+            title={title} 
+          />
+          <Paper>
+          {rewards.map(reward => {
+            return (
+              
+                <Grid container spacing={2}>
+                  <Grid item>
+                    <ButtonBase sx={{ width: 128, height: 128 }}>
+                      <a target="_blank" href={reward.link}>
+                        <Img alt="complex" src={reward.rewardCardImage} />
+                      </a>
+                    </ButtonBase>
+                  </Grid>
+                  <Grid item xs={21} sm container>
+                    <Grid item xs container direction="column" spacing={2}>
+                      <Grid item xs>
+                        <Typography gutterBottom variant="subtitle1" component="div">
+                          {reward.rewardTitle}
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          Claim Code: {reward.claimCode}
+                        </Typography>
+                      </Grid>
+                    </Grid>
+                    <Grid item>
+                      <Typography variant="subtitle1" component="div">
+                        $19.00
+                      </Typography>
+                    </Grid>
+                  </Grid>
+                </Grid>
+            
+            );
+           })}
+        </Paper>
         </DialogContent>
-        <DialogActions>
+        <DialogActions >
             <Button onClick={() => setOpenPopup(false)}>Close</Button>
         </DialogActions> 
       </Dialog>

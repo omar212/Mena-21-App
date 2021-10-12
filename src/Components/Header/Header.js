@@ -13,7 +13,7 @@ function Header() {
     return (
         <div className="header-container" style={{fontFamily: 'Tangerine, cursive'}}>
         <Box sx={{ flexGrow: 1, width: '100%' }}>
-            <AppBar position="static" style={{ backgroundColor: "#800080"}}>
+            <AppBar position="static" style={{ backgroundColor: "#800080 !important"}}>
                 <Toolbar>
               
                 <HeartIcon onClick={() => console.log("hello")} />
