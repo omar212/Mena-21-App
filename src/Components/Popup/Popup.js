@@ -61,7 +61,7 @@ export default function Popup(props) {
                     ( 
                       <>
                       <span style={{color: "#694364", fontWeight: 'bolder'}}> Claim Link: </span> 
-                        <a href={object.claimLink} target="_blank"> Click Me Later 🙋🏽‍♀️</a>
+                        <a href={object.claimLink} target="_blank"> Click Me Later 🙅🏽‍♀️</a>
                       <br />
                       </>
                     ) : (
