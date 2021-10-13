@@ -44,7 +44,7 @@ function PrettyPage() {
                     </Typography>
                 </Paper>
             </Box>
-            <Link style={{textDecoration: "none"}} to={process.env.PUBLIC_URL + "/b1"}>
+            <Link style={{textDecoration: "none"}} to="/b1">
                 <Button 
                     startIcon={<HeartIcon />}
                     endIcon={<HeartIcon />}

@@ -30,6 +30,7 @@ import styled from 'styled-components'
 import Header from './Components/Header/Header'
 import PlaySound from './Components/MediaPlayer/PlayLoveSound'
 import love from './assests/love.mp3'
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
@@ -38,78 +39,82 @@ function App() {
       <MainContentStyled>
         {/* <PlaySound /> */}
         <Switching>
-            <Route path={process.env.PUBLIC_URL + "/"} exact>
-              <HomePage />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/pretty"} exact>
-              <PrettyPage />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b1"} exact>
-              <Page1 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b2"} exact>
-              <Page2 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b3"} exact>
-              <Page3 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b4"} exact>
-              <Page4 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b5"} exact>
-              <Page5 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b6"} exact>
-              <Page6 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b7"} exact>
-              <Page7 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b8"} exact>
-              <Page8 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b9"} exact>
-              <Page9 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b10"} exact>
-              <Page10 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b11"} exact>
-              <Page11 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b12"} exact>
-              <Page12 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b13"} exact>
-              <Page13 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b14"} exact>
-              <Page14 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b15"} exact>
-              <Page15 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b16"} exact>
-              <Page16 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b17"} exact>
-              <Page17 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b18"} exact>
-              <Page18 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b19"} exact>
-              <Page19 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b20"} exact>
-              <Page20 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b21"} exact>
-              <Page21 />
-            </Route>
-            <Route path={process.env.PUBLIC_URL + "/b22"} exact>
-              <Page22 />
-            </Route>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
+              <Route path= "/" exact >
+                <HomePage />
+              </Route>
+              <Route path= "/pretty" exact>
+                <PrettyPage />
+              </Route>
+              <Route path= "/b1" exact>
+                <Page1 />
+              </Route>
+              <Route path= "/b2" exact>
+                <Page2 />
+              </Route>
+              <Route path= "/b3" exact>
+                <Page3 />
+              </Route>
+              <Route path= "/b4" exact>
+                <Page4 />
+              </Route>
+              <Route path= "/b5" exact>
+                <Page5 />
+              </Route>
+              <Route path= "/b6" exact>
+                <Page6 />
+              </Route>
+              <Route path= "/b7" exact>
+                <Page7 />
+              </Route>
+              <Route path= "/b8" exact>
+                <Page8 />
+              </Route>
+              <Route path= "/b9" exact>
+                <Page9 />
+              </Route>
+              <Route path= "/b10" exact>
+                <Page10 />
+              </Route>
+              <Route path= "/b11" exact>
+                <Page11 />
+              </Route>
+              <Route path= "/b12" exact>
+                <Page12 />
+              </Route>
+              <Route path= "/b13" exact>
+                <Page13 />
+              </Route>
+              <Route path= "/b14" exact>
+                <Page14 />
+              </Route>
+              <Route path= "/b15" exact>
+                <Page15 />
+              </Route>
+              <Route path= "/b16" exact>
+                <Page16 />
+              </Route>
+              <Route path= "/b17" exact>
+                <Page17 />
+              </Route>
+              <Route path= "/b18" exact>
+                <Page18 />
+              </Route>
+              <Route path= "/b19" exact>
+                <Page19 />
+              </Route>
+              <Route path= "/b20" exact>
+                <Page20 />
+              </Route>
+              <Route path= "/b21" exact>
+                <Page21 />
+              </Route>
+              <Route path= "/b22" exact>
+                <Page22 />
+              </Route>
+            </BrowserRouter>
+            
+            
         </Switching>
         </MainContentStyled>
     </div>

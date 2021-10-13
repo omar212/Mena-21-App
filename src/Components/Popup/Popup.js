@@ -63,7 +63,7 @@ export default function Popup(props) {
           <DialogActions>
             <div className="button-group">
               <Button onClick={() => setOpenPopup(false)}>Close</Button>
-              <Link  to={process.env.PUBLIC_URL + `/b${id}`}>
+              <Link  to={`/b${id}`}>
                 <Button onClick={() => setOpenPopup(false)}>Next</Button>
               </Link>
             </div>

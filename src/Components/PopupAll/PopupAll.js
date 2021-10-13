@@ -70,7 +70,7 @@ export default function PopupAll(props) {
                     </Grid>
                     <Grid item>
                       <Typography variant="subtitle1" component="div">
-                        $19.00
+                        {reward.price}
                       </Typography>
                     </Grid>
                   </Grid>

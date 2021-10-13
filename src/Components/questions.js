@@ -8,6 +8,8 @@ import nike from '../assests/ClaimCards/nikeCard.png'
 import sephora from '../assests/ClaimCards/sephoraCard.png'
 import ulta from '../assests/ClaimCards/ultaCard.png'
 import coldStone from '../assests/ClaimCards/coldStoneCard.png'
+import bosas from '../assests/ClaimCards/bosasCard.png'
+
 
 import mena1 from '../assests/CardImages/mena1.jpg'
 import mena2 from '../assests/CardImages/mena2.png'
@@ -47,6 +49,7 @@ const questions = [
         claimCode: '0000000000',
         link: 'https://www.starbucks.com/',
         cardImage: mena1,
+        price: '$5'
     },
     {
         id: 2,
@@ -58,11 +61,12 @@ const questions = [
             { answerText: 'Coco Chanel', isCorrect: false, submitText: "She supported Hitler, so it's definitly a no." },
             
         ],
-        rewardCardImage: adidas,
-        rewardTitle: 'Adidas',
+        rewardCardImage: amazon,
+        rewardTitle: 'Amazon',
         claimCode: '0000000000',
-        link: 'https://www.adidas.com/',
+        link: 'https://www.amazon.com/',
         cardImage: mena2,
+        price: '$5'
     },
     {
         id: 3,
@@ -73,11 +77,12 @@ const questions = [
             { answerText: 'Fish', isCorrect: false, submitText: "I know you would rather not ever eat again, but when we're married inshallah that will change lol." },
             { answerText: 'Sushi', isCorrect: true, submitText: "AHH SALMON SKIN ROLL, great job princess <3"  },
         ],
-        rewardCardImage: macys,
+        rewardCardImage: starbucks,
         rewardTitle: 'macys',
         claimCode: '0000000000',
-        link: 'https://www.macys.com/',
+        link: 'https://www.starbucks.com/',
         cardImage: mena3,
+        price: '$5'
     },
     {
         id: 4,
@@ -88,11 +93,12 @@ const questions = [
             { answerText: 'Vampire Diaries', isCorrect: false, submitText: "Tbh I hated the show, so I'm sorry definitly not this one" },
             { answerText: 'FRIENDS', isCorrect: true, submitText: "OBVIOUSLY, BEST SHOW IN THE WORLD FRIENDS 4 LIFE, I must give credit to my princess for showing me this show 💜"  },
         ],
-        rewardCardImage: americanEagle,
-        rewardTitle: 'American Eagle',
+        rewardCardImage: amazon,
+        rewardTitle: 'Amazon',
         claimCode: '0000000000',
-        link: 'https://www.americaneagle.com/',
+        link: 'https://www.amazon.com/',
         cardImage: mena4,
+        price: '$5'
     },
     {
         id: 5,
@@ -103,11 +109,12 @@ const questions = [
             { answerText: 'Egypt', isCorrect: false, submitText: "Been there, done that, try something different." },
             { answerText: 'Europe', isCorrect: true, submitText: "YES, travel all of Europe, take the train and go from London all the way to Italy, pls take me with u 💜"  },
         ],
-        rewardCardImage: hnm,
-        rewardTitle: 'H&M',
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
-        link: 'https://www.hm.com/',
+        link: 'https://www.starbucks.com/',
         cardImage: mena5,
+        price: '$5'
     },
     {
         id: 6,
@@ -118,11 +125,12 @@ const questions = [
             { answerText: '0', isCorrect: false, submitText: "you really think that LOL" },
             { answerText: '# of insects', isCorrect: true, submitText: "15 quintillion lol bravo princess 💜"  },
         ],
-        rewardCardImage: nike,
-        rewardTitle: 'Nike',
+        rewardCardImage: amazon,
+        rewardTitle: 'Amazon',
         claimCode: '0000000000',
-        link: 'https://www.nike.com/',
+        link: 'https://www.amazon.com/',
         cardImage: mena6,
+        price: '$5'
     },
     {
         id: 7,
@@ -134,11 +142,12 @@ const questions = [
             { answerText: 'Reading Books', isCorrect: false, submitText: "LMAO imagine 🤣 " },
             
         ],
-        rewardCardImage: sephora,
-        rewardTitle: 'Sephora',
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
         claimCode: '0000000000',
-        link: 'https://www.sephora.com/',
+        link: 'https://www.starbucks.com/',
         cardImage: mena7,
+        price: '$5'
     },
     {
         id: 8,
@@ -154,21 +163,22 @@ const questions = [
         claimCode: '0000000000',
         link: 'https://www.amazon.com/',
         cardImage: mena8,
+        price: '$5'
     },
     {
         id: 9,
-        questionText: "What would you consider your best feature ?",
+        questionText: "What is your favorite dessert?",
         answerOptions: [
-            { answerText: 'Eyes', isCorrect: false, submitText: "Yea your eyes could take me around the world and I wouldn't even know I moved, but there's more" },
-            { answerText: 'Hair', isCorrect: false, submitText: "As lucious and flawless as it is, I would comb it everyday of my life, because of how beautiful it is, but there's more" },
-            { answerText: 'Face', isCorrect: false, submitText: "I can't even tell you how gorgeous I find your face, but there's more lol" },
-            { answerText: 'LITERALLY EVERYTHING', isCorrect: true, submitText: "Couldn't have said it any better, a whole package plus more"  },
+            { answerText: 'Carrot Cake', isCorrect: false, submitText: "Naasty, not even sure why they make this" },
+            { answerText: 'Creme Brulee', isCorrect: false, submitText: "Babe that's my favourite dessert, stop copying me." },
+            { answerText: 'Cheesecake', isCorrect: false, submitText: "One day this will be your favourite, soon very soon lol just not today" },
+            { answerText: 'Cookies & Ice Cream', isCorrect: true, submitText: "COOKIES AND CREAM, ugh you making me crave some right now too <3"  },
         ],
-        rewardCardImage: ulta,
-        rewardTitle: 'Ulta',
+        rewardCardImage: coldStone,
+        rewardTitle: 'Cold Stone',
         claimCode: '0000000000',
-        link: 'https://www.ulta.com/',
-        cardImage: mena9,
+        link: 'https://www.coldstone.com/',
+        cardImage: mena9,        
     },
     {
         id: 10,
@@ -182,8 +192,9 @@ const questions = [
         rewardCardImage: amazon,
         rewardTitle: 'Amazon',
         claimCode: '0000000000',
-        link: 'https://www.starbucks.com/',
+        link: 'https://www.amazon.com/',
         cardImage: mena10,
+        price: '$5'
     },
     {
         id: 11,
@@ -194,11 +205,12 @@ const questions = [
             { answerText: 'Cleaning the Toilet', isCorrect: false, submitText: "NO THANK YOU lol." },
             { answerText: 'Vaccuming', isCorrect: true, submitText: "Now that's the right answer pretty, I know you just get a great satisfaction from cleaning the floor and how easy it is lol"  },
         ],
-        rewardCardImage: amazon,
-        rewardTitle: 'Amazon',
+        rewardCardImage: adidas,
+        rewardTitle: 'Adidas',
         claimCode: '0000000000',
-        link: 'https://www.amazon.com/',
+        link: 'https://www.adidas.com/',
         cardImage: mena11,
+        price: '$15'
     },
     {
         id: 12,
@@ -214,6 +226,7 @@ const questions = [
         claimCode: '0000000000',
         link: 'https://www.nike.com/',
         cardImage: mena12,
+        price: '$15'
     },
     {
         id: 13,
@@ -224,11 +237,12 @@ const questions = [
             { answerText: 'King Kullen', isCorrect: true, submitText: "You probably only been here twice in your whole life LOL." },
             { answerText: 'Western Beef', isCorrect: false, submitText: "My princess is way too boujie for western beef LOL"  },
         ],
-        rewardCardImage: amazon,
-        rewardTitle: 'Amazon',
+        rewardCardImage: macys,
+        rewardTitle: 'Macys',
         claimCode: '0000000000',
-        link: 'https://www.amazon.com/',
+        link: 'https://www.macys.com/',
         cardImage: mena13,
+        price: '$15'
     },
     {
         id: 14,
@@ -239,11 +253,12 @@ const questions = [
             { answerText: '1 year', isCorrect: false, submitText: "I don't think so, let's bump those numbers up." },
             { answerText: '2 years', isCorrect: true, submitText: "Yea I know you're going to need a 2 year break so you can enjoy life with no crying babies lol 🤣 💜"  },
         ],
-        rewardCardImage: starbucks,
-        rewardTitle: 'Starbucks',
+        rewardCardImage: hnm,
+        rewardTitle: 'H & M',
         claimCode: '0000000000',
-        link: 'https://www.starbucks.com/',
+        link: 'https://www.hnm.com/',
         cardImage: mena14,
+        price: '$15'
     },
     {
         id: 15,
@@ -254,11 +269,12 @@ const questions = [
             { answerText: 'Dirty bathroom', isCorrect: false, submitText: "Naasty and true, but there's more." },
             { answerText: 'All of the above', isCorrect: true, submitText: "Yea that sounds much more like it, my babe is a clean freak and I'm so grateful for that 💜"  },
         ],
-        rewardCardImage: starbucks,
-        rewardTitle: 'Starbucks',
+        rewardCardImage: ulta,
+        rewardTitle: 'Ulta',
         claimCode: '0000000000',
-        link: 'https://www.starbucks.com/',
+        link: 'https://www.ulta.com/',
         cardImage: mena15,
+        price: '$15'
     },
     {
         id: 16,
@@ -269,11 +285,12 @@ const questions = [
             { answerText: 'Honda', isCorrect: false, submitText: "Please let's never touch a Honda." },
             { answerText: 'Tesla', isCorrect: true, submitText: "My princess loves touching buttons, and the telsa is perfect for that lol"  },
         ],
-        rewardCardImage: starbucks,
-        rewardTitle: 'Starbucks',
+        rewardCardImage: sephora,
+        rewardTitle: 'Sephora',
         claimCode: '0000000000',
-        link: 'https://www.starbucks.com/',
+        link: 'https://www.sephora.com/',
         cardImage: mena16,
+        price: '$15'
     },
     {
         id: 17,
@@ -284,10 +301,11 @@ const questions = [
             { answerText: '3', isCorrect: true, submitText: "Inshallah we could get a Lucky 3, oldest to be a boy, one could be dumb, but thankfully we have a 3rd one to cover that lol" },
             { answerText: '8', isCorrect: true, submitText: "8 ARE YOU CRAZY ??? HOW WE GONNA EAT 😭 we gonna have to go to Costco Everyday 😭"  },
         ],
-        rewardCardImage: starbucks,
+        rewardCardImage: nike,
         claimCode: '0000000000',
-        link: 'https://www.starbucks.com/',
+        link: 'https://www.nike.com/',
         cardImage: mena17,
+        price: '$20'
     },
     {
         id: 18,
@@ -298,26 +316,28 @@ const questions = [
             { answerText: "I'm lovin it", isCorrect: false, submitText: "This ain't McDonalds and if you chose this I'm concered on what you eating lol" },
             { answerText: 'E.H.F.a.R', isCorrect: true, submitText: " 'Everything happens for a reason', My princess lives through this quote and I'm grateful for everthing that happened to me so I could be led me to you 💜"  },
         ],
-        rewardCardImage: starbucks,
-        rewardTitle: 'Starbucks',
+        rewardCardImage: macys,
+        rewardTitle: 'Macys',
         claimCode: '0000000000',
-        link: 'https://www.starbucks.com/',
+        link: 'https://www.macys.com/',
         cardImage: mena18,
+        price: '$20'
     },
     {
         id: 19,
-        questionText: "What is your favorite dessert?",
+        questionText: "What would you consider your best feature ?",
         answerOptions: [
-            { answerText: 'Carrot Cake', isCorrect: false, submitText: "Naasty, not even sure why they make this" },
-            { answerText: 'Creme Brulee', isCorrect: false, submitText: "Babe that's my favourite dessert, stop copying me." },
-            { answerText: 'Cheesecake', isCorrect: false, submitText: "One day this will be your favourite, soon very soon lol just not today" },
-            { answerText: 'Cookies & Ice Cream', isCorrect: true, submitText: "COOKIES AND CREAM, ugh you making me crave some right now too <3"  },
+            { answerText: 'Eyes', isCorrect: false, submitText: "Yea your eyes could take me around the world and I wouldn't even know I moved, but there's more" },
+            { answerText: 'Hair', isCorrect: false, submitText: "As lucious and flawless as it is, I would comb it everyday of my life, because of how beautiful it is, but there's more" },
+            { answerText: 'Face', isCorrect: false, submitText: "I can't even tell you how gorgeous I find your face, but there's more lol" },
+            { answerText: 'LITERALLY EVERYTHING', isCorrect: true, submitText: "Couldn't have said it any better, a whole package plus more"  },
         ],
-        rewardCardImage: coldStone,
-        rewardTitle: 'Cold Stone',
+        rewardCardImage: hnm,
+        rewardTitle: 'H & M',
         claimCode: '0000000000',
-        link: 'https://www.coldstone.com/',
+        link: 'https://www.hnm.com/',
         cardImage: mena19,
+        price: '$20'
     },
     {
         id: 20,
@@ -328,11 +348,12 @@ const questions = [
             { answerText: 'Bum',  isCorrect: false, submitText: "Yes that's true too, I can't lie, I love my sleep 😭 but I know there's more." },
             { answerText: 'Sadly All', isCorrect: true, submitText: "That sounds more like it, I know you love me and you only say these words cause you want me to get better 🙄"  },
         ],
-        rewardCardImage: amazon,
-        rewardTitle: 'Amazon',
+        rewardCardImage: americanEagle,
+        rewardTitle: 'American Eagle',
         claimCode: '0000000000',
-        link: 'https://www.amazon.com/',
+        link: 'https://www.americaneagle.com/',
         cardImage: mena20,
+        price: '$20',
     },
     {
         id: 21,
@@ -343,27 +364,13 @@ const questions = [
             { answerText: 'Any Remarks', isCorrect: false, submitText: "Thank you for playing my games princess, You're gorgeous in every picture you take if you haven't noticed lol, Super smart for getting this far, and a Queen for being with this King " },
             { answerText: 'All of the Above', isCorrect: true, submitText: "AH, you did it, I'm proud of you princess, I will continue to ask you these questions my whole life inshallah just to prove to you the love I have for you will never change 💜"  },
         ],
-        rewardCardImage: starbucks,
-        rewardTitle: 'Starbucks',
+        rewardCardImage: bosas,
+        rewardTitle: 'Bosas',
         claimCode: '0000000000',
-        link: 'https://www.starbucks.com/',
+        link: 'https://www.google.com/search?q=i+love+you&rlz=1C5CHFA_enUS946US947&oq=i+love+you&aqs=chrome..69i57j46i67i275i433j46i67j0i512j0i67j69i60l3.4095j0j7&sourceid=chrome&ie=UTF-8',
         cardImage: mena21,
+        price: '20 + 1 for good luck'
     },
-    // {
-    //     id: 22,
-    //     rewardCardImage: starbucks,
-    //     rewardTitle: 'Starbucks',
-    //     claimCode: '0000000000',
-    //     link: 'https://www.starbucks.com/',
-    // },
-    // {
-    //     id: 23,
-    //     rewardCardImage: starbucks,
-    //     rewardTitle: 'Starbucks',
-    //     claimCode: '0000000000',
-    //     link: 'https://www.starbucks.com/',
-    // },
-
 ];
 
 export default questions;
