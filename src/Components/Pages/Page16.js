@@ -7,6 +7,7 @@ function Page16() {
     return (
         <PageStyle>
             <Card 
+                object={questions[15]}
                 title={`Question ${questions[15].id}`}
                 question={questions[15].questionText}
                 image={questions[15].cardImage}

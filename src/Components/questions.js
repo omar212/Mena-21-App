@@ -29,7 +29,7 @@ import mena15 from '../assests/CardImages/mena15.jpg'
 import mena16 from '../assests/CardImages/mena16.jpg'
 import mena17 from '../assests/CardImages/mena17.PNG'
 import mena18 from '../assests/CardImages/mena18.PNG'
-import mena19 from '../assests/CardImages/mena19.PNG'
+import mena19 from '../assests/CardImages/mena19.jpg'
 import mena20 from '../assests/CardImages/mena20.jpg'
 import mena21 from '../assests/CardImages/mena21.jpg'
 
@@ -46,7 +46,7 @@ const questions = [
         ],
         rewardCardImage: starbucks,
         rewardTitle: 'Starbucks',
-        claimCode: '0000000000',
+        claimLink: 'https://codes.rewardcodes.com/r2/1/a7ebjjtNBff9ynMb0qW1zg',
         link: 'https://www.starbucks.com/',
         cardImage: mena1,
         price: '$5'
@@ -63,7 +63,7 @@ const questions = [
         ],
         rewardCardImage: amazon,
         rewardTitle: 'Amazon',
-        claimCode: '0000000000',
+        claimCode: 'DAQA-T8JS84-NCAN',
         link: 'https://www.amazon.com/',
         cardImage: mena2,
         price: '$5'
@@ -78,8 +78,8 @@ const questions = [
             { answerText: 'Sushi', isCorrect: true, submitText: "AHH SALMON SKIN ROLL, great job princess <3"  },
         ],
         rewardCardImage: starbucks,
-        rewardTitle: 'macys',
-        claimCode: '0000000000',
+        rewardTitle: 'starbucks',
+        claimLink: 'https://codes.rewardcodes.com/r2/1/ev37Hs7FvTdqvXsvd6KIVQ',
         link: 'https://www.starbucks.com/',
         cardImage: mena3,
         price: '$5'
@@ -95,7 +95,7 @@ const questions = [
         ],
         rewardCardImage: amazon,
         rewardTitle: 'Amazon',
-        claimCode: '0000000000',
+        claimCode: 'N7NP-LFAAZ3-HFAU',
         link: 'https://www.amazon.com/',
         cardImage: mena4,
         price: '$5'
@@ -111,7 +111,7 @@ const questions = [
         ],
         rewardCardImage: starbucks,
         rewardTitle: 'Starbucks',
-        claimCode: '0000000000',
+        claimLink: 'https://codes.rewardcodes.com/r2/1/kggNVJG9-2cJMcGg9D686w',
         link: 'https://www.starbucks.com/',
         cardImage: mena5,
         price: '$5'
@@ -127,7 +127,7 @@ const questions = [
         ],
         rewardCardImage: amazon,
         rewardTitle: 'Amazon',
-        claimCode: '0000000000',
+        claimCode: '6KLW-UNTAS6-N9AQ',
         link: 'https://www.amazon.com/',
         cardImage: mena6,
         price: '$5'
@@ -144,7 +144,7 @@ const questions = [
         ],
         rewardCardImage: starbucks,
         rewardTitle: 'Starbucks',
-        claimCode: '0000000000',
+        claimLink: 'https://codes.rewardcodes.com/r2/1/TG1Rg5miKQcfmIwVD5CKaA',
         link: 'https://www.starbucks.com/',
         cardImage: mena7,
         price: '$5'
@@ -160,7 +160,7 @@ const questions = [
         ],
         rewardCardImage: amazon,
         rewardTitle: 'Amazon',
-        claimCode: '0000000000',
+        claimCode: 'SZM4-2MP9N6-9ZA3',
         link: 'https://www.amazon.com/',
         cardImage: mena8,
         price: '$5'
@@ -176,7 +176,8 @@ const questions = [
         ],
         rewardCardImage: coldStone,
         rewardTitle: 'Cold Stone',
-        claimCode: '0000000000',
+        claimLink: 'https://www.vcdelivery.com/vcert/5b652689-d736-40d1-83a2-29cf311f3bea',
+        claimCode: '6194233784327197',
         link: 'https://www.coldstone.com/',
         cardImage: mena9,        
     },
@@ -189,10 +190,12 @@ const questions = [
             { answerText: 'In a subway', isCorrect: false, submitText: "Come on I know you don't like that smelly train that much lol." },
             { answerText: 'In Egypt & In America', isCorrect: true, submitText: "Inshallah, we can have a beautiful one in both countries 💍"},
         ],
-        rewardCardImage: amazon,
-        rewardTitle: 'Amazon',
-        claimCode: '0000000000',
-        link: 'https://www.amazon.com/',
+        rewardCardImage: starbucks,
+        rewardTitle: 'Starbucks',
+        cardNumber: '6200380521857778',
+        claimCode: '07594763',
+        claimLink: 'https://codes.rewardcodes.com/r2/1/_2Gz8Yb19BTZ5iLB3n7nAg',
+        link: 'https://www.starbucks.com/',
         cardImage: mena10,
         price: '$5'
     },
@@ -207,7 +210,7 @@ const questions = [
         ],
         rewardCardImage: adidas,
         rewardTitle: 'Adidas',
-        claimCode: '0000000000',
+        claimLink: 'https://codes.rewardcodes.com/r2/1/cCMNNGnojxxLZF0257SJ8w',
         link: 'https://www.adidas.com/',
         cardImage: mena11,
         price: '$15'
@@ -223,7 +226,7 @@ const questions = [
         ],
         rewardCardImage: nike,
         rewardTitle: 'Nike',
-        claimCode: '0000000000',
+        claimLink: 'https://codes.rewardcodes.com/r2/1/UHZLcZwabrHgEMmZhHA7Ig',
         link: 'https://www.nike.com/',
         cardImage: mena12,
         price: '$15'
@@ -237,10 +240,10 @@ const questions = [
             { answerText: 'King Kullen', isCorrect: true, submitText: "You probably only been here twice in your whole life LOL." },
             { answerText: 'Western Beef', isCorrect: false, submitText: "My princess is way too boujie for western beef LOL"  },
         ],
-        rewardCardImage: macys,
-        rewardTitle: 'Macys',
-        claimCode: '0000000000',
-        link: 'https://www.macys.com/',
+        rewardCardImage: ulta,
+        rewardTitle: 'Ulta',
+        claimLink: 'https://codes.rewardcodes.com/r2/1/O-jutyFjeq5rv50jQlmkKw',
+        link: 'https://www.ulta.com/',
         cardImage: mena13,
         price: '$15'
     },
@@ -255,7 +258,7 @@ const questions = [
         ],
         rewardCardImage: hnm,
         rewardTitle: 'H & M',
-        claimCode: '0000000000',
+        claimLink: 'https://egift.activationspot.com/?tid=657Q0RGVTJTZKC50AW2P8STYQC&gcm=n&gs=n&gw=n&eid=D2H26808FMGBXTZHPB1GDF2330',
         link: 'https://www.hnm.com/',
         cardImage: mena14,
         price: '$15'
@@ -271,7 +274,7 @@ const questions = [
         ],
         rewardCardImage: ulta,
         rewardTitle: 'Ulta',
-        claimCode: '0000000000',
+        claimLink: 'https://codes.rewardcodes.com/r2/1/dK919-pAMzAXvP1U53E6CQ',
         link: 'https://www.ulta.com/',
         cardImage: mena15,
         price: '$15'
@@ -287,7 +290,7 @@ const questions = [
         ],
         rewardCardImage: sephora,
         rewardTitle: 'Sephora',
-        claimCode: '0000000000',
+        claimLink: 'https://codes.rewardcodes.com/r2/1/FjcYSt3qNn_SMJ9JsjDeyw',
         link: 'https://www.sephora.com/',
         cardImage: mena16,
         price: '$15'
@@ -299,10 +302,11 @@ const questions = [
             { answerText: '1', isCorrect: false, submitText: "No you don't want the poor kid to be an only child 🥺 " },
             { answerText: '2', isCorrect: false, submitText: "2 is pretty fair but it's not a full team" },
             { answerText: '3', isCorrect: true, submitText: "Inshallah we could get a Lucky 3, oldest to be a boy, one could be dumb, but thankfully we have a 3rd one to cover that lol" },
-            { answerText: '8', isCorrect: true, submitText: "8 ARE YOU CRAZY ??? HOW WE GONNA EAT 😭 we gonna have to go to Costco Everyday 😭"  },
+            { answerText: '8', isCorrect: false, submitText: "8 ARE YOU CRAZY ??? HOW WE GONNA EAT 😭 we gonna have to go to Costco Everyday 😭"  },
         ],
         rewardCardImage: nike,
         claimCode: '0000000000',
+        claimLink: 'https://codes.rewardcodes.com/r2/1/tkld-Bv4aXCGaAGc-r9dbA',
         link: 'https://www.nike.com/',
         cardImage: mena17,
         price: '$20'
@@ -318,10 +322,10 @@ const questions = [
         ],
         rewardCardImage: macys,
         rewardTitle: 'Macys',
-        claimCode: '0000000000',
+        claimLink: 'https://codes.rewardcodes.com/r2/1/-cleDnRn3W5_ZocjfjYi0A',
         link: 'https://www.macys.com/',
         cardImage: mena18,
-        price: '$20'
+        price: '$10'
     },
     {
         id: 19,
@@ -334,10 +338,10 @@ const questions = [
         ],
         rewardCardImage: hnm,
         rewardTitle: 'H & M',
-        claimCode: '0000000000',
+        claimLink:'https://egift.activationspot.com/?tid=657Q0RGVTJTZKC50AW2P8STYQC&gcm=n&gs=n&gw=n&eid=AFS2H4RPH6TLYG9B87KD285Q04',
         link: 'https://www.hnm.com/',
         cardImage: mena19,
-        price: '$20'
+        price: '$15'
     },
     {
         id: 20,
@@ -350,7 +354,7 @@ const questions = [
         ],
         rewardCardImage: americanEagle,
         rewardTitle: 'American Eagle',
-        claimCode: '0000000000',
+        claimLink:'https://codes.rewardcodes.com/r2/1/MbXy-spDCcIGTX2JB53uZw',
         link: 'https://www.americaneagle.com/',
         cardImage: mena20,
         price: '$20',
@@ -366,7 +370,7 @@ const questions = [
         ],
         rewardCardImage: bosas,
         rewardTitle: 'Bosas',
-        claimCode: '0000000000',
+        claimLink: 'https://www.google.com/search?q=i+love+you&rlz=1C5CHFA_enUS946US947&oq=i+love+you&aqs=chrome..69i57j46i67i275i433j46i67j0i512j0i67j69i60l3.4095j0j7&sourceid=chrome&ie=UTF-8',
         link: 'https://www.google.com/search?q=i+love+you&rlz=1C5CHFA_enUS946US947&oq=i+love+you&aqs=chrome..69i57j46i67i275i433j46i67j0i512j0i67j69i60l3.4095j0j7&sourceid=chrome&ie=UTF-8',
         cardImage: mena21,
         price: '20 + 1 for good luck'

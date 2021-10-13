@@ -10,7 +10,7 @@ import Popup from '../Popup/Popup'
 import './index.scss'
 
 
-export default function QuestionCard({title, question, image, answers, claimCode, rewardCardImage, rewardTitle, link, id, height}) {
+export default function QuestionCard({object, title, question, image, answers, claimCode, rewardCardImage, rewardTitle, link, id, height}) {
   const [correctAnswer, setCorrectAnswer] = useState(false)
   const [submitText, setSubmitAnswer] = useState("")
   const [openPopup, setOpenPopup] = useState(false)
@@ -85,6 +85,7 @@ export default function QuestionCard({title, question, image, answers, claimCode
             correctAnswer={correctAnswer}
             link={link}
             id={id}
+            object={object}
           /> 
       }
     </div>

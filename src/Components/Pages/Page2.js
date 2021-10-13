@@ -11,6 +11,7 @@ function Page2() {
     return (
         <PageStyled>
             <Card 
+                object={questions[1]}
                 title={`Question ${questions[1].id}`}
                 question={questions[1].questionText}
                 image={questions[1].cardImage}

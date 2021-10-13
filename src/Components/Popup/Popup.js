@@ -17,7 +17,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 
 
 export default function Popup(props) {
-  const { openPopup, setOpenPopup, correctAnswer, submitText,claimCode,rewardCardImage ,rewardTitle,handleClose, link, id } = props
+  const { object, openPopup, setOpenPopup, correctAnswer, submitText,claimCode,rewardCardImage ,rewardTitle,handleClose, link, id } = props
 
   return (
     <div>
@@ -52,8 +52,27 @@ export default function Popup(props) {
                 <MoneyConfetti />
               </a>
               <DialogContentText>
-                Here's your reward princess <br /> <span style={{color: "#694364", fontWeight: 'bolder'}}>Claim Code: </span> {claimCode}
+                Here's your reward princess 
+                {/* <br /> 
+                <span style={{color: "#694364", fontWeight: 'bolder'}}>Claim Code: </span> {claimCode}  */}
+                <br /> 
+                {
+                  object.rewardTitle !== 'Amazon' ? 
+                    ( 
+                      <>
+                      <span style={{color: "#694364", fontWeight: 'bolder'}}> Claim Link: </span> 
+                        <a href={object.claimLink} target="_blank"> Click Me Later 🙋🏽‍♀️</a>
+                      <br />
+                      </>
+                    ) : (
+                      <>
+                        <span style={{color: "#694364", fontWeight: 'bolder'}}>Claim Code: </span> {claimCode}
+                      </>
+                    )
+                }
+                
               </DialogContentText>
+
             </Box> : ''
           }
           

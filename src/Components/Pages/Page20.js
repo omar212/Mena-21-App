@@ -4,12 +4,11 @@ import styled from 'styled-components';
 import questions from '../questions'
 
 
-
-
 function Page20() {    
     return (
         <PageStyle>
             <Card 
+                object={questions[19]}
                 title={`Question ${questions[19].id}`}
                 question={questions[19].questionText}
                 image={questions[19].cardImage}

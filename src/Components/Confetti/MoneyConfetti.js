@@ -40,6 +40,7 @@ export default class App extends React.Component {
             type="emoji"
             lifetime={300}
             config={config}
+            children={''}
         > 
         </Reward>
       </div>

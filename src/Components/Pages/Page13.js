@@ -3,13 +3,11 @@ import Card from '../Card/Card'
 import styled from 'styled-components';
 import questions from '../questions'
 
-
-
-
 function Page13() {    
     return (
         <PageStyle>
             <Card 
+                object={questions[12]}
                 title={`Question ${questions[12].id}`}
                 question={questions[12].questionText}
                 image={questions[12].cardImage}
