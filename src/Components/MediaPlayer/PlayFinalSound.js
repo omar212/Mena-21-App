@@ -1,22 +1,21 @@
 import React, { useState } from 'react'
 import Sound from 'react-sound'
-import Love from '../../assests/love.mp3'
+import jason from '../../assests/jason.mp3'
 
 
 const PlaySound = ( 
     handleSongLoading, 
     handleSongPlaying, 
-    handleSongFinishedPlaying 
+    handleSongFinishedPlaying,
 ) => {
     const [isPlaying, setIsPlaying] = useState(true)
 
     return (
         <Sound
-            url={Love}
+            url={jason}
             playStatus={isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED}
             playFromPosition={300}
             onLoading={handleSongLoading}
-            onPlaying={handleSongPlaying}
             onFinishedPlaying={handleSongFinishedPlaying}
         />
     )

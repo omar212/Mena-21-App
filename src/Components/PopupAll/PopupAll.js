@@ -44,6 +44,7 @@ export default function PopupAll(props) {
           <CardHeader
             title={title} 
           />
+          <hr />
           <Paper>
           {rewards.map(reward => {
             return (
@@ -80,7 +81,9 @@ export default function PopupAll(props) {
         </Paper>
         </DialogContent>
         <DialogActions >
+          <div className="button-group">
             <Button onClick={() => setOpenPopup(false)}>Close</Button>
+          </div>
         </DialogActions> 
       </Dialog>
     </div>

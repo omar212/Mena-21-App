@@ -16,9 +16,9 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 });
 
 
-export default function Popup(props) {
-  const { openPopup, setOpenPopup, correctAnswer, submitText,claimCode,rewardCardImage ,rewardTitle,handleClose, link, id } = props
-
+export default function EasterEggPopup(props) {
+  const { openPopup, setOpenPopup, submitText,claimCode,rewardCardImage ,rewardTitle, handleClose, link, id } = props
+    console.log("hello")
   return (
     <div>
       <Dialog
@@ -30,10 +30,9 @@ export default function Popup(props) {
       >
         <DialogContent>
           <DialogContentText>
-            {submitText}
+            Easter Egg hehe
           </DialogContentText>
           {
-            correctAnswer ? 
             <Box 
               style={{
                 display: 'flex',
@@ -54,26 +53,14 @@ export default function Popup(props) {
               <DialogContentText>
                 Here's your reward princess <br /> <span style={{color: "#694364", fontWeight: 'bolder'}}>Claim Code: </span> {claimCode}
               </DialogContentText>
-            </Box> : ''
+            </Box> 
           }
           
         </DialogContent>
-        {
-          correctAnswer ? 
-          <DialogActions>
-            <div className="button-group">
-              <Button onClick={() => setOpenPopup(false)}>Close</Button>
-              <Link to={`/b${id}`}>
-                <Button onClick={() => setOpenPopup(false)}>Next</Button>
-              </Link>
-            </div>
-          </DialogActions> : 
-          <DialogActions>
-            <div className="button-group">
-              <Button onClick={() => setOpenPopup(false)}>Try Again Pretty</Button>
-            </div>
-          </DialogActions>
-        }
+        
+        <DialogActions>
+            <Button onClick={() => setOpenPopup(false)}>Close</Button>
+        </DialogActions>
       </Dialog>
     </div>
   );

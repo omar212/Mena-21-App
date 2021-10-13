@@ -9,7 +9,6 @@ import Box from '@mui/material/Box';
 import Popup from '../Popup/Popup'
 
 import './index.scss'
-import { ButtonGroup } from '@mui/material';
 
 
 export default function QuestionCard({title, question, image, answers, claimCode, rewardCardImage, rewardTitle, link, id, height}) {

@@ -5,13 +5,13 @@ import Reward from "react-rewards";
 const config = {
   emoji: ['🎈', '🎊', '🎉', '🎁', '⭐', '🦃'],
   elementCount: 100,
-  spread: 150,
+  spread: 100,
   zIndex: 9999,
-  lifetime: 300
+  lifetime: 100
 };
 
 // Make non 🎈 emoji more rare
-for (let i = 0; i < 25; i++) {
+for (let i = 0; i < 10; i++) {
   config.emoji.push('🎈')
 }
 
@@ -46,7 +46,7 @@ export default class App extends React.Component {
     // Reset after 3
     if (this.state.count > 3) {
       // Special bonus
-      window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+      window.open('https://www.youtube.com/watch?v=4RSfosqKJx8', '_blank');
 
       this.setState({count: 0})
       return

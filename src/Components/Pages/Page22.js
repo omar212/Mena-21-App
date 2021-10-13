@@ -12,6 +12,8 @@ import { Typography, Paper } from '@material-ui/core';
 import Slide from '@mui/material/Slide';
 import Fade from '@mui/material/Fade';
 import CardAll from '../CardAll/CardAll'
+import PlaySound from '../MediaPlayer/PlayFinalSound'
+import jason from '../../assests/jason.mp3'
 
 
 const Transition = React.forwardRef(function Transition(props, ref) {
@@ -25,6 +27,7 @@ const heart = "💜"
 function Page22() {    
     return (
         <PageStyle>
+            {/* <PlaySound /> */}
             <CardAll 
                 image={questions[0].cardImage}
                 height="260px"

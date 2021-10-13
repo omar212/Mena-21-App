@@ -16,7 +16,7 @@
 .happy {
   color: white;
   font-size:large;
-  text-shadow: 0px 0px 6px hsl(32, 100%, 55%);
+  text-shadow: 0px 0px 6px pink;
   -webkit-font-smoothing: antialiased;
   font-family: 'Pacifico', cursive;
   /* padding: 1.2em; */
@@ -31,6 +31,7 @@
 }
 .happy:hover {
   background: hsla(0, 0%, 100%, 0.5);
+  width:75%;
 }
 .happy:focus {
   outline: none;
@@ -40,7 +41,7 @@
   left: 50%;
   transform: translate(-50%);
   font-size: large;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 .wrapper > div span {
   pointer-events: none;

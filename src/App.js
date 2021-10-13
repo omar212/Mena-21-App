@@ -28,7 +28,8 @@ import Page22 from './Components/Pages/Page22'
 
 import styled from 'styled-components'
 import Header from './Components/Header/Header'
-import PlaySound from './Components/MediaPlayer/PlaySound'
+import PlaySound from './Components/MediaPlayer/PlayFinalSound'
+import love from './assests/love.mp3'
 
 function App() {
   return (

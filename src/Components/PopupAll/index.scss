@@ -1,14 +1,23 @@
 .css-hlj6pa-MuiDialogActions-root {
-    // margin: auto;
-    // width: 100%;
-    // background-color: #B58BAB;
+    margin: auto;
+    width: 100%;
+    align-items: center;
 }
 
 .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
     background-color:  #B58BAB;
     
 }
-
+hr {
+    margin-bottom: 4%;
+    border:1px solid purple;
+}
+.button-group {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: auto;
+}
 .MuiTypography-h5 {
     font-family: 'Acme', sans-serif !important;
 }
@@ -42,8 +51,6 @@
     justify-items: center;
     width: 100%;
     border-radius: 30px;
-    background-color: red;
-    // border: 1px solid red;
 }
 a:-webkit-any-link {
     text-decoration: none;
@@ -92,7 +99,6 @@ a:-webkit-any-link {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
     background-color: #E3D1E2 !important;
-    // border: 1px solid red;
 }
 
 

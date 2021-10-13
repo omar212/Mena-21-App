@@ -7,6 +7,7 @@ import hnm from '../assests/ClaimCards/HNMCard.png'
 import nike from '../assests/ClaimCards/nikeCard.png'
 import sephora from '../assests/ClaimCards/sephoraCard.png'
 import ulta from '../assests/ClaimCards/ultaCard.png'
+import coldStone from '../assests/ClaimCards/coldStoneCard.png'
 
 import mena1 from '../assests/CardImages/mena1.jpg'
 import mena2 from '../assests/CardImages/mena2.png'
@@ -84,7 +85,7 @@ const questions = [
         answerOptions: [
             { answerText: 'Dexter', isCorrect: false, submitText: 'Too much blood, and my princess does not like blood.' },
             { answerText: 'Squid Games', isCorrect: false, submitText: "It would of been if they didn't do my brother Ali like that 🥺 " },
-            { answerText: 'Breaking Bad', isCorrect: false, submitText: "It." },
+            { answerText: 'Vampire Diaries', isCorrect: false, submitText: "Tbh I hated the show, so I'm sorry definitly not this one" },
             { answerText: 'FRIENDS', isCorrect: true, submitText: "OBVIOUSLY, BEST SHOW IN THE WORLD FRIENDS 4 LIFE, I must give credit to my princess for showing me this show 💜"  },
         ],
         rewardCardImage: americanEagle,
@@ -203,10 +204,10 @@ const questions = [
         id: 12,
         questionText: 'What is your favorite fruit ?',
         answerOptions: [
-            { answerText: 'Drake', isCorrect: false, submitText: 'LOL you really would of thought I was going to pick Drake, try again pretty.' },
-            { answerText: 'Dragonfruit', isCorrect: false, submitText: "What is that ?." },
-            { answerText: 'Apples', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
-            { answerText: 'Strawberry', isCorrect: true, submitText: "Now that's the right answer sliced, fresh, and hand fed strawberries"  },
+            { answerText: 'Carrots', isCorrect: false, submitText: 'Naaasty.' },
+            { answerText: 'Dragonfruit', isCorrect: false, submitText: "What even is that ?" },
+            { answerText: 'Apples', isCorrect: false, submitText: "Too much acid and I know my princess has an acid problem." },
+            { answerText: 'Strawberry', isCorrect: true, submitText: "Now that's the right answer sliced, fresh, and hand fed strawberries 🍓"  },
         ],
         rewardCardImage: nike,
         rewardTitle: 'Nike',
@@ -220,8 +221,8 @@ const questions = [
         answerOptions: [
             { answerText: 'Costco', isCorrect: true, submitText: "C for Cassoc and C for Correct, can't wait to go costco shopping with you in the future and spend thosands of dollars in one day 😁" },
             { answerText: 'Shoprite', isCorrect: false, submitText: "Let's be honest, they really don't got anything special." },
-            { answerText: 'King Kullen', isCorrect: false, submitText: "You probably only been here twice in your whole life LOL." },
-            { answerText: 'Western Beef', isCorrect: true, submitText: "My princess is way too boujie for western beef LOL"  },
+            { answerText: 'King Kullen', isCorrect: true, submitText: "You probably only been here twice in your whole life LOL." },
+            { answerText: 'Western Beef', isCorrect: false, submitText: "My princess is way too boujie for western beef LOL"  },
         ],
         rewardCardImage: amazon,
         rewardTitle: 'Amazon',
@@ -292,10 +293,10 @@ const questions = [
         id: 18,
         questionText: 'What is your favorite quote?',
         answerOptions: [
-            { answerText: 'Just do it', isCorrect: false, submitText: 'LOL you really would of thought I was going to pick Drake, try again pretty.' },
-            { answerText: 'Life happens', isCorrect: false, submitText: "She is taken by Jay Z, that's not nice, try again princess." },
-            { answerText: 'Be a Man', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
-            { answerText: 'Everything happens for a reason', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
+            { answerText: 'Just do it', isCorrect: false, submitText: "When's the last time you did anything LMAO" },
+            { answerText: 'YOLO', isCorrect: false, submitText: "Drake said it best, but lowkey this would be my favorite quote." },
+            { answerText: "I'm lovin it", isCorrect: false, submitText: "This ain't McDonalds and if you chose this I'm concered on what you eating lol" },
+            { answerText: 'E.H.F.a.R', isCorrect: true, submitText: " 'Everything happens for a reason', My princess lives through this quote and I'm grateful for everthing that happened to me so I could be led me to you 💜"  },
         ],
         rewardCardImage: starbucks,
         rewardTitle: 'Starbucks',
@@ -305,42 +306,42 @@ const questions = [
     },
     {
         id: 19,
-        questionText: 'If I could choose one person to be alone on an island with for the rest of my life who it would be ?',
+        questionText: "What is your favorite dessert?",
         answerOptions: [
-            { answerText: 'Drake', isCorrect: false, submitText: 'LOL you really would of thought I was going to pick Drake, try again pretty.' },
-            { answerText: 'Beyonce', isCorrect: false, submitText: "She is taken by Jay Z, that's not nice, try again princess." },
-            { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
-            { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
+            { answerText: 'Carrot Cake', isCorrect: false, submitText: "Naasty, not even sure why they make this" },
+            { answerText: 'Creme Brulee', isCorrect: false, submitText: "Babe that's my favourite dessert, stop copying me." },
+            { answerText: 'Cheesecake', isCorrect: false, submitText: "One day this will be your favourite, soon very soon lol just not today" },
+            { answerText: 'Cookies & Ice Cream', isCorrect: true, submitText: "COOKIES AND CREAM, ugh you making me crave some right now too <3"  },
         ],
-        rewardCardImage: starbucks,
-        rewardTitle: 'Starbucks',
+        rewardCardImage: coldStone,
+        rewardTitle: 'Cold Stone',
         claimCode: '0000000000',
-        link: 'https://www.starbucks.com/',
+        link: 'https://www.coldstone.com/',
         cardImage: mena19,
     },
     {
         id: 20,
-        questionText: "How many numbers are there in a phone number ?",
+        questionText: "What's your favourite word(s) to call Omar ?",
         answerOptions: [
-            { answerText: 'Drake', isCorrect: false, submitText: 'LOL you really would of thought I was going to pick Drake, try again pretty.' },
-            { answerText: 'Beyonce', isCorrect: false, submitText: "She is taken by Jay Z, that's not nice, try again princess." },
-            { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
-            { answerText: 'Mena', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
+            { answerText: 'Slow', isCorrect: false, submitText: "Yes that's true, what can I say sometimes things and words move too quickly 😭 but I know there's more" },
+            { answerText: 'Lost', isCorrect: false, submitText: "Yes that's true too, idk directions are just not clear sometimes " },
+            { answerText: 'Bum',  isCorrect: false, submitText: "Yes that's true too, I can't lie, I love my sleep 😭 but I know there's more." },
+            { answerText: 'Sadly All', isCorrect: true, submitText: "That sounds more like it, I know you love me and you only say these words cause you want me to get better 🙄"  },
         ],
-        rewardCardImage: starbucks,
-        rewardTitle: 'Starbucks',
+        rewardCardImage: amazon,
+        rewardTitle: 'Amazon',
         claimCode: '0000000000',
-        link: 'https://www.starbucks.com/',
+        link: 'https://www.amazon.com/',
         cardImage: mena20,
     },
     {
         id: 21,
-        questionText: 'If I could choose one person to be alone on an island with for the rest of my life who it would be ?',
+        questionText: "Final Question ... What are the 3 questions that Omar always ask you at the end of the night ?",
         answerOptions: [
-            { answerText: 'Drake', isCorrect: false, submitText: 'LOL you really would of thought I was going to pick Drake, try again pretty.' },
-            { answerText: 'Beyonce', isCorrect: false, submitText: "She is taken by Jay Z, that's not nice, try again princess." },
-            { answerText: 'Shakira', isCorrect: false, submitText: "Way too old for me and I don't do FOBS you know that lol, try again cutie." },
-            { answerText: 'Mena (My Princess)', isCorrect: true, submitText: "Now that's the right answer babe, wouldn't want anyone else in the world to be stuck then you <3"  },
+            { answerText: 'Any Questions', isCorrect: false, submitText: "How much do you love me ? well it doesn't matter cause I always win" },
+            { answerText: 'Any Concerns', isCorrect: false, submitText: "There better not be after all this LOL." },
+            { answerText: 'Any Remarks', isCorrect: false, submitText: "Thank you for playing my games princess, You're gorgeous in every picture you take if you haven't noticed lol, Super smart for getting this far, and a Queen for being with this King " },
+            { answerText: 'All of the Above', isCorrect: true, submitText: "AH, you did it, I'm proud of you princess, I will continue to ask you these questions my whole life inshallah just to prove to you the love I have for you will never change 💜"  },
         ],
         rewardCardImage: starbucks,
         rewardTitle: 'Starbucks',
@@ -348,6 +349,20 @@ const questions = [
         link: 'https://www.starbucks.com/',
         cardImage: mena21,
     },
+    // {
+    //     id: 22,
+    //     rewardCardImage: starbucks,
+    //     rewardTitle: 'Starbucks',
+    //     claimCode: '0000000000',
+    //     link: 'https://www.starbucks.com/',
+    // },
+    // {
+    //     id: 23,
+    //     rewardCardImage: starbucks,
+    //     rewardTitle: 'Starbucks',
+    //     claimCode: '0000000000',
+    //     link: 'https://www.starbucks.com/',
+    // },
 
 ];
 
