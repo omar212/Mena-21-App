@@ -7,7 +7,7 @@ import './index.scss'
 function HomePage() {
     return (
         <div className="princess-container">
-            <Link style={{textDecoration: "none"}} to="/pretty">
+            <Link style={{textDecoration: "none"}} to={process.env.PUBLIC_URL + "/pretty"}>
                 <Button 
                     startIcon={<HeartIcon />}
                     endIcon={<HeartIcon />}

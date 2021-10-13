@@ -36,78 +36,78 @@ function App() {
     <div className="App">
       <Header className="header" />
       <MainContentStyled>
-        <PlaySound />
+        {/* <PlaySound /> */}
         <Switching>
-            <Route path="/" exact>
+            <Route path={process.env.PUBLIC_URL + "/"} exact>
               <HomePage />
             </Route>
-            <Route path="/pretty" exact>
+            <Route path={process.env.PUBLIC_URL + "/pretty"} exact>
               <PrettyPage />
             </Route>
-            <Route path="/b1" exact>
+            <Route path={process.env.PUBLIC_URL + "/b1"} exact>
               <Page1 />
             </Route>
-            <Route path="/b2" exact>
+            <Route path={process.env.PUBLIC_URL + "/b2"} exact>
               <Page2 />
             </Route>
-            <Route path="/b3" exact>
+            <Route path={process.env.PUBLIC_URL + "/b3"} exact>
               <Page3 />
             </Route>
-            <Route path="/b4" exact>
+            <Route path={process.env.PUBLIC_URL + "/b4"} exact>
               <Page4 />
             </Route>
-            <Route path="/b5" exact>
+            <Route path={process.env.PUBLIC_URL + "/b5"} exact>
               <Page5 />
             </Route>
-            <Route path="/b6" exact>
+            <Route path={process.env.PUBLIC_URL + "/b6"} exact>
               <Page6 />
             </Route>
-            <Route path="/b7" exact>
+            <Route path={process.env.PUBLIC_URL + "/b7"} exact>
               <Page7 />
             </Route>
-            <Route path="/b8" exact>
+            <Route path={process.env.PUBLIC_URL + "/b8"} exact>
               <Page8 />
             </Route>
-            <Route path="/b9" exact>
+            <Route path={process.env.PUBLIC_URL + "/b9"} exact>
               <Page9 />
             </Route>
-            <Route path="/b10" exact>
+            <Route path={process.env.PUBLIC_URL + "/b10"} exact>
               <Page10 />
             </Route>
-            <Route path="/b11" exact>
+            <Route path={process.env.PUBLIC_URL + "/b11"} exact>
               <Page11 />
             </Route>
-            <Route path="/b12" exact>
+            <Route path={process.env.PUBLIC_URL + "/b12"} exact>
               <Page12 />
             </Route>
-            <Route path="/b13" exact>
+            <Route path={process.env.PUBLIC_URL + "/b13"} exact>
               <Page13 />
             </Route>
-            <Route path="/b14" exact>
+            <Route path={process.env.PUBLIC_URL + "/b14"} exact>
               <Page14 />
             </Route>
-            <Route path="/b15" exact>
+            <Route path={process.env.PUBLIC_URL + "/b15"} exact>
               <Page15 />
             </Route>
-            <Route path="/b16" exact>
+            <Route path={process.env.PUBLIC_URL + "/b16"} exact>
               <Page16 />
             </Route>
-            <Route path="/b17" exact>
+            <Route path={process.env.PUBLIC_URL + "/b17"} exact>
               <Page17 />
             </Route>
-            <Route path="/b18" exact>
+            <Route path={process.env.PUBLIC_URL + "/b18"} exact>
               <Page18 />
             </Route>
-            <Route path="/b19" exact>
+            <Route path={process.env.PUBLIC_URL + "/b19"} exact>
               <Page19 />
             </Route>
-            <Route path="/b20" exact>
+            <Route path={process.env.PUBLIC_URL + "/b20"} exact>
               <Page20 />
             </Route>
-            <Route path="/b21" exact>
+            <Route path={process.env.PUBLIC_URL + "/b21"} exact>
               <Page21 />
             </Route>
-            <Route path="/b22" exact>
+            <Route path={process.env.PUBLIC_URL + "/b22"} exact>
               <Page22 />
             </Route>
         </Switching>
