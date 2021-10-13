@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Mena-21-App/static/css/main.46411445.chunk.css",
-    "main.js": "/Mena-21-App/static/js/main.ffa1a15e.chunk.js",
-    "main.js.map": "/Mena-21-App/static/js/main.ffa1a15e.chunk.js.map",
+    "main.js": "/Mena-21-App/static/js/main.94a3cf64.chunk.js",
+    "main.js.map": "/Mena-21-App/static/js/main.94a3cf64.chunk.js.map",
     "runtime-main.js": "/Mena-21-App/static/js/runtime-main.4eb022bc.js",
     "runtime-main.js.map": "/Mena-21-App/static/js/runtime-main.4eb022bc.js.map",
     "static/js/2.9dce7bf8.chunk.js": "/Mena-21-App/static/js/2.9dce7bf8.chunk.js",
@@ -51,6 +51,6 @@
     "static/js/runtime-main.4eb022bc.js",
     "static/js/2.9dce7bf8.chunk.js",
     "static/css/main.46411445.chunk.css",
-    "static/js/main.ffa1a15e.chunk.js"
+    "static/js/main.94a3cf64.chunk.js"
   ]
 }
