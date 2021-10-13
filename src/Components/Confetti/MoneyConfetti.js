@@ -5,7 +5,7 @@ import Reward from "react-rewards";
 const config = {
   emoji: ["💶", "💴", "💵", "💰"],
   elementCount: 100,
-  spread: 150,
+  spread: 25,
   zIndex: 9999,
   lifetime: 300
 };

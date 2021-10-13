@@ -64,7 +64,7 @@ export default function QuestionCard({object, title, question, image, answers, c
 
         {answers.map(answer => {
             return (
-                <Button variant="contained" color="success"   variant="contained" className="buttons" value={answer.answerText} onClick={() => chooseAnswer(answer, claimCode)} >
+                <Button variant="contained" variant="contained" className="buttons" value={answer.answerText} onClick={() => chooseAnswer(answer, claimCode)} >
                   {console.log("answer.answerText: ",answer.answerText )}
                   {answer.answerText}
                 </Button>
