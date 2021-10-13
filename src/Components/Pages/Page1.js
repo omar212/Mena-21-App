@@ -1,10 +1,5 @@
 import React from 'react'
-import Button from '@material-ui/core/Button'
-import {
-    Link
-  } from "react-router-dom";
 import Card from '../Card/Card'
-import HeartIcon from '@material-ui/icons/Favorite'
 import styled from 'styled-components';
 import questions from '../questions'
 
@@ -23,19 +18,6 @@ function Page1() {
                 id={(questions[0].id + 1).toString()}
                 height="260px"
             />
-            {/* <Link style={{textDecoration: "none"}} to="/b2">
-                <Button 
-                    startIcon={<HeartIcon />}
-                    endIcon={<HeartIcon />}
-                    size="large" 
-                    variant="contained" 
-                    color="secondary"
-                    disabled={}
-                    style={{ backgroundColor: "#BF40BF", fontFamily: 'Carter One, cursive'}}
-                    >
-                        Next
-                </Button>
-            </Link> */}
         </PageStyle>
         
     )
