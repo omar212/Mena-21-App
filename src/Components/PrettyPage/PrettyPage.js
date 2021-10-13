@@ -22,7 +22,7 @@ function PrettyPage() {
                     width: '85%',
                     height: '100%',
                     backgroundColor: '#B58BAB', //'rgb(191, 64, 191)',
-                    color: 'white',
+                    // color: 'white',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
