@@ -5,8 +5,6 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import Box from '@mui/material/Box';
-import DialogTitle from '@mui/material/DialogTitle';
-import { Link } from "react-router-dom";
 import Slide from '@mui/material/Slide';
 import MoneyConfetti from '../Confetti/MoneyConfetti'
 import './index.scss'
@@ -17,7 +15,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 
 
 export default function EasterEggPopup(props) {
-  const { openPopup, setOpenPopup, submitText,claimCode,rewardCardImage ,rewardTitle, handleClose, link, id } = props
+  const { openPopup, setOpenPopup, claimCode,rewardCardImage ,rewardTitle, handleClose, link } = props
     console.log("hello")
   return (
     <div>

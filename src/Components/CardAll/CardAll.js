@@ -1,26 +1,16 @@
-import React, {Component, useState} from 'react';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
+import React, {useState} from 'react';
 import Button from '@mui/material/Button';
 import { Typography, Paper } from '@material-ui/core';
-// import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import PopupAll from '../PopupAll/PopupAll'
 import styled from 'styled-components'
-import questions from '../questions'
 
 
 import './index.scss'
 
 
 export default function CardAll({title, questions, image, height}) {
-  const [correctAnswer, setCorrectAnswer] = useState(false)
-  const [submitText, setSubmitAnswer] = useState("")
   const [openPopup, setOpenPopup] = useState(false)
-
-
 
   const chooseAnswer = () => {
     setOpenPopup(true)

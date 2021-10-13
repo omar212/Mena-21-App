@@ -52,7 +52,7 @@ export default function PopupAll(props) {
                 <Grid container spacing={2}>
                   <Grid item>
                     <ButtonBase sx={{ width: 128, height: 128 }}>
-                      <a target="_blank" href={reward.link}>
+                      <a target="_blank" href={reward.link} rel="noreferrer">
                         <Img alt="complex" src={reward.rewardCardImage} />
                       </a>
                     </ButtonBase>

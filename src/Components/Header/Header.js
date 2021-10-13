@@ -1,16 +1,10 @@
-import React, {Component, useState} from 'react'
+import React from 'react'
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
 import HeartIcon from '@material-ui/icons/Favorite'
-import { Link } from "react-router-dom";
-import LinearProgress from '@mui/material/LinearProgress';
-import  BirtdayConfetti from '../Confetti/BdayConfetti';
-import EasterEggPopup  from '../Popup/EasterEggPopup'
-import questions from '../questions'
+import BirtdayConfetti from '../Confetti/BdayConfetti';
 import './index.scss'
 
 
