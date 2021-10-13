@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Mena-21-App/static/css/main.b80977ff.chunk.css",
+    "main.css": "/Mena-21-App/static/css/main.033a251c.chunk.css",
     "main.js": "/Mena-21-App/static/js/main.40aa47b6.chunk.js",
     "main.js.map": "/Mena-21-App/static/js/main.40aa47b6.chunk.js.map",
     "runtime-main.js": "/Mena-21-App/static/js/runtime-main.4eb022bc.js",
@@ -10,7 +10,7 @@
     "static/js/3.c97b3905.chunk.js": "/Mena-21-App/static/js/3.c97b3905.chunk.js",
     "static/js/3.c97b3905.chunk.js.map": "/Mena-21-App/static/js/3.c97b3905.chunk.js.map",
     "index.html": "/Mena-21-App/index.html",
-    "static/css/main.b80977ff.chunk.css.map": "/Mena-21-App/static/css/main.b80977ff.chunk.css.map",
+    "static/css/main.033a251c.chunk.css.map": "/Mena-21-App/static/css/main.033a251c.chunk.css.map",
     "static/js/2.9dce7bf8.chunk.js.LICENSE.txt": "/Mena-21-App/static/js/2.9dce7bf8.chunk.js.LICENSE.txt",
     "static/media/HNMCard.56b5d2d6.png": "/Mena-21-App/static/media/HNMCard.56b5d2d6.png",
     "static/media/adidasCard.235e6b8e.png": "/Mena-21-App/static/media/adidasCard.235e6b8e.png",
@@ -50,7 +50,7 @@
   "entrypoints": [
     "static/js/runtime-main.4eb022bc.js",
     "static/js/2.9dce7bf8.chunk.js",
-    "static/css/main.b80977ff.chunk.css",
+    "static/css/main.033a251c.chunk.css",
     "static/js/main.40aa47b6.chunk.js"
   ]
 }
