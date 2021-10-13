@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Mena-21-App/static/css/main.4988bd6a.chunk.css",
-    "main.js": "/Mena-21-App/static/js/main.0fb825ed.chunk.js",
-    "main.js.map": "/Mena-21-App/static/js/main.0fb825ed.chunk.js.map",
-    "runtime-main.js": "/Mena-21-App/static/js/runtime-main.dd56d15c.js",
-    "runtime-main.js.map": "/Mena-21-App/static/js/runtime-main.dd56d15c.js.map",
-    "static/js/2.9448910a.chunk.js": "/Mena-21-App/static/js/2.9448910a.chunk.js",
-    "static/js/2.9448910a.chunk.js.map": "/Mena-21-App/static/js/2.9448910a.chunk.js.map",
-    "static/js/3.0e658177.chunk.js": "/Mena-21-App/static/js/3.0e658177.chunk.js",
-    "static/js/3.0e658177.chunk.js.map": "/Mena-21-App/static/js/3.0e658177.chunk.js.map",
+    "main.css": "/Mena-21-App/static/css/main.03735db7.chunk.css",
+    "main.js": "/Mena-21-App/static/js/main.645334af.chunk.js",
+    "main.js.map": "/Mena-21-App/static/js/main.645334af.chunk.js.map",
+    "runtime-main.js": "/Mena-21-App/static/js/runtime-main.4eb022bc.js",
+    "runtime-main.js.map": "/Mena-21-App/static/js/runtime-main.4eb022bc.js.map",
+    "static/js/2.9dce7bf8.chunk.js": "/Mena-21-App/static/js/2.9dce7bf8.chunk.js",
+    "static/js/2.9dce7bf8.chunk.js.map": "/Mena-21-App/static/js/2.9dce7bf8.chunk.js.map",
+    "static/js/3.c97b3905.chunk.js": "/Mena-21-App/static/js/3.c97b3905.chunk.js",
+    "static/js/3.c97b3905.chunk.js.map": "/Mena-21-App/static/js/3.c97b3905.chunk.js.map",
     "index.html": "/Mena-21-App/index.html",
-    "static/css/main.4988bd6a.chunk.css.map": "/Mena-21-App/static/css/main.4988bd6a.chunk.css.map",
-    "static/js/2.9448910a.chunk.js.LICENSE.txt": "/Mena-21-App/static/js/2.9448910a.chunk.js.LICENSE.txt",
+    "static/css/main.03735db7.chunk.css.map": "/Mena-21-App/static/css/main.03735db7.chunk.css.map",
+    "static/js/2.9dce7bf8.chunk.js.LICENSE.txt": "/Mena-21-App/static/js/2.9dce7bf8.chunk.js.LICENSE.txt",
     "static/media/HNMCard.56b5d2d6.png": "/Mena-21-App/static/media/HNMCard.56b5d2d6.png",
     "static/media/adidasCard.235e6b8e.png": "/Mena-21-App/static/media/adidasCard.235e6b8e.png",
     "static/media/americanEagleCard.a928d37f.png": "/Mena-21-App/static/media/americanEagleCard.a928d37f.png",
     "static/media/App.scss": "/Mena-21-App/static/media/ballonBackground.906e5c6f.jpg",
+    "static/media/bosasCard.509bb4d7.png": "/Mena-21-App/static/media/bosasCard.509bb4d7.png",
     "static/media/coldStoneCard.dc9a98ac.png": "/Mena-21-App/static/media/coldStoneCard.dc9a98ac.png",
     "static/media/jason.4a8ae66e.mp3": "/Mena-21-App/static/media/jason.4a8ae66e.mp3",
     "static/media/love.9b92dc1e.mp3": "/Mena-21-App/static/media/love.9b92dc1e.mp3",
@@ -30,7 +31,7 @@
     "static/media/mena16.7fbb8190.jpg": "/Mena-21-App/static/media/mena16.7fbb8190.jpg",
     "static/media/mena17.36a4b280.PNG": "/Mena-21-App/static/media/mena17.36a4b280.PNG",
     "static/media/mena18.5a13db42.PNG": "/Mena-21-App/static/media/mena18.5a13db42.PNG",
-    "static/media/mena19.7b577a0e.PNG": "/Mena-21-App/static/media/mena19.7b577a0e.PNG",
+    "static/media/mena19.2f40775c.jpg": "/Mena-21-App/static/media/mena19.2f40775c.jpg",
     "static/media/mena2.35cc9fd7.png": "/Mena-21-App/static/media/mena2.35cc9fd7.png",
     "static/media/mena20.9b2b3878.jpg": "/Mena-21-App/static/media/mena20.9b2b3878.jpg",
     "static/media/mena21.5337658f.jpg": "/Mena-21-App/static/media/mena21.5337658f.jpg",
@@ -47,9 +48,9 @@
     "static/media/ultaCard.e03f8ab4.png": "/Mena-21-App/static/media/ultaCard.e03f8ab4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.dd56d15c.js",
-    "static/js/2.9448910a.chunk.js",
-    "static/css/main.4988bd6a.chunk.css",
-    "static/js/main.0fb825ed.chunk.js"
+    "static/js/runtime-main.4eb022bc.js",
+    "static/js/2.9dce7bf8.chunk.js",
+    "static/css/main.03735db7.chunk.css",
+    "static/js/main.645334af.chunk.js"
   ]
 }
