@@ -15,9 +15,9 @@ const PlaySound = (
             url={Love}
             playStatus={isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED}
             playFromPosition={300}
-            onLoading={handleSongLoading}
-            onPlaying={handleSongPlaying}
-            onFinishedPlaying={handleSongFinishedPlaying}
+            // onLoading={handleSongLoading}
+            // onPlaying={handleSongPlaying}
+            // onFinishedPlaying={handleSongFinishedPlaying}
         />
     )
     
