@@ -179,7 +179,8 @@ const questions = [
         claimLink: 'https://www.vcdelivery.com/vcert/5b652689-d736-40d1-83a2-29cf311f3bea',
         claimCode: '6194233784327197',
         link: 'https://www.coldstone.com/',
-        cardImage: mena9,        
+        cardImage: mena9,    
+        price: '$10'    
     },
     {
         id: 10,
