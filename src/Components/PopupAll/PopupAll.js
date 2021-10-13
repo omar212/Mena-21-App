@@ -64,7 +64,7 @@ export default function PopupAll(props) {
                           {reward.rewardTitle}
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                          Claim Link: <a href={reward.claimLink}>Now Click Me</a>
+                          Claim Link: <a href={reward.claimLink}>Now Click Me 🙋🏽‍♀️</a>
                         </Typography>
                       </Grid>
                     </Grid>
