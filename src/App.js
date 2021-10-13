@@ -37,7 +37,7 @@ function App() {
     <div className="App">
       <Header className="header" />
       <MainContentStyled>
-        {/* <PlaySound /> */}
+        <PlaySound />
         <Switching>
             <BrowserRouter basename={process.env.PUBLIC_URL}>
               <Route path= "/" exact >
