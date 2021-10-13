@@ -28,7 +28,7 @@ import Page22 from './Components/Pages/Page22'
 
 import styled from 'styled-components'
 import Header from './Components/Header/Header'
-import PlaySound from './Components/MediaPlayer/PlayFinalSound'
+import PlaySound from './Components/MediaPlayer/PlayLoveSound'
 import love from './assests/love.mp3'
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
     <div className="App">
       <Header className="header" />
       <MainContentStyled>
-        {/* <PlaySound /> */}
+        <PlaySound />
         <Switching>
             <Route path="/" exact>
               <HomePage />
