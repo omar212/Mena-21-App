@@ -68,7 +68,7 @@ export default class App extends React.Component {
           config={config}
         >
           <button className="happy" onClick={this.handleClick}>
-             Happy 21 <sup>st</sup> Birthday Princess !!!!
+             Happy 21 <sup>st</sup> Birthday Princess !
           </button>
           <div className="cake">{this.state.cakes.join('')}</div>
         </Reward>      
