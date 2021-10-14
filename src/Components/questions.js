@@ -238,7 +238,7 @@ const questions = [
         answerOptions: [
             { answerText: 'Costco', isCorrect: true, submitText: "C for Cassoc and C for Correct, can't wait to go costco shopping with you in the future and spend thosands of dollars in one day 😁" },
             { answerText: 'Shoprite', isCorrect: false, submitText: "Let's be honest, they really don't got anything special." },
-            { answerText: 'King Kullen', isCorrect: true, submitText: "You probably only been here twice in your whole life LOL." },
+            { answerText: 'King Kullen', isCorrect: false, submitText: "You probably only been here twice in your whole life LOL." },
             { answerText: 'Western Beef', isCorrect: false, submitText: "My princess is way too boujie for western beef LOL"  },
         ],
         rewardCardImage: ulta,
